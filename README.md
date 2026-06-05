@@ -28,3 +28,17 @@ R packages required:
 
 - `xml2`
 - `ggplot2`
+
+## Usage
+
+Download the scripts (.R and .sh) to a working directory.
+
+chmod +x run_spectrum.sh
+
+./run_spectrum.sh sample.n42
+
+## Contributing
+
+Please fork in GitHub and provide, in a public repository, a Pull Request for updates.  It would also be helpful to contact me directly so I am aware of the contribution.  Thank you.
+
+
