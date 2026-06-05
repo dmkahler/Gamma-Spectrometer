@@ -1,7 +1,11 @@
+#!/usr/bin/env Rscript
+args = commandArgs(trailingOnly=TRUE)
+fn <- args[1]
+
 library(xml2)
 library(ggplot2)
 
-fn <- "SPEC0133.N42"
+# fn <- "SPEC0133.N42"
 root <- strsplit(fn, ".N42")[[1]]
 
 # Read the file
