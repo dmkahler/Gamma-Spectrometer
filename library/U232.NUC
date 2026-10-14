@@ -1,0 +1,26 @@
+U232
+Gamma		  63.830, 0.263 # Added to address Am241 FPs
+XRay		  93.000, 12.1	# Modified upward from 83 based on empirical spectra
+Gamma		 129.100, 2.90
+Gamma		 238.600, 16.0 D(Pb212)
+Gamma		 510.770, 1.07 D(Tl208)
+Gamma		 583.000, 4.00 exp primE # D(Tl208)
+Gamma		 727.000, 1.70 D(Bi212)
+Gamma		 860.564, 0.59 D(Tl208)
+Gamma		1593.000, 1.00 # 2614 double escape
+Gamma		2109.000, 0.1  # 2614 Single Escape
+Gamma		2614.533, 0.80 exp primI # D(Tl208)
+Template	0.98	238 583 1593 2615
+#Template	0.97	238 583     1602 2615
+Template	0.96	238 583      2615
+Template	0.89	    583 1593 2615
+#Template	0.88	    583     1602 2615
+Template	0.88	    583     2615
+#Template	0.70	238		1602 2615	# slightly more likely than U233 for same peak subset
+Class: SNM
+Halflife: 68.9 years
+Shielding: Stl05 Stl30
+Description: U232 is a part of the naturally occuring Th232 decay chain. It is often found as a contaminent of U233.
+# Stl30 shielding not required but should be verified working
+# TBD must determine primaries, fix description
+# Note - U232 is not spectrally distinguishable from Th228.

@@ -1,0 +1,37 @@
+Sm153
+Xray		  42.416, 63.95 multi
+Gamma		  69.673, 4.73
+Gamma		 102.838, 30.37 exp multi primE primI
+Gamma		 172.850, 0.07
+Gamma		 531.400, 0.05 exp
+Gamma		 609.500, 0.025
+Backscat	181 # from the-531 line
+Compton		313 # From the-531 line
+Template	1.00 42    103 173 531
+Template	0.67 42    103
+Template	1.00 42 70 103 173 531
+Template	1.00    70 103 173 531
+Template	0.69 42 70 103
+Template	1.00       103 173 531
+Template	0.68       103
+Template	1.00       103 173 531 609
+Template	1.00       103 173 531
+Template	1.00       103 173 531 609
+Template	1.00           173 531 609
+Template	0.85           173 531 
+Template	0.67       103 	   531
+Template 	1.00 	   103 	   531 610
+Template 	1.00 42        173 531
+Template 	0.74 42 	   531 610
+Template 	0.90 42 70 103 173
+Template 	0.85 		   531
+Template 	0.67 		   531 610
+Template 	0.67 	70 103
+Template 	1.00 	70 103 	   531
+#Template	1.00 42    103 173 531 609
+#Template	1.00 42 70 103 173 531 609
+Class: MED
+Halflife: 46.50 hours
+Shielding: PMMA76
+Description: Sm153 is a medical isotope used for...
+# TBD

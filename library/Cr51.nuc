@@ -1,0 +1,10 @@
+Cr51
+Gamma		320.084, 10.08 exp primE primI # Actually-320.084 but trying to push away from Np237,Tc99m lines
+Backscat	141
+Template	0.72		320	# SLI
+Template 	0.69	141	320
+Class: MED
+Halflife: 27.704 days
+Confounds: Yb169, Np237, Ir192, Ac228, Th232
+Shielding: PMMA76
+Description: Cr51 is a medical isotope frequently used...

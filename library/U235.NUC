@@ -1,0 +1,56 @@
+U235
+Xray		  97.000, 10.9 multi
+Gamma		 143.76, 10.9 multi
+Gamma		 185.715, 57.5 exp primE primI multi
+Gamma		 345.900, 0.04 exp
+Backscat	 110	# from -186 line
+Backscat	 153	# from-345 line 
+# Gamma		 585.000, 0.85 exp C(Tl208)	# Added per ARA data - ?
+# Gamma		 757.000, 1.20 exp C(Bi212)	# Added per ARA data - ?
+# Gamma		 882.000, 0.40 exp C(Tl208)	# Added per ARA data - ?
+# Gamma		1097.000, 0.40     C(Bi214)	# Added per ARA data - ?
+# Gamma		1750.000, 0.15	   C(Bi214)	# Added per ARA data - ?
+# Gamma		2100.700, 0.30 exp C(Bi214)	# Added per ARA data - ?
+# Template	0.00	97 143 186 585 757 882      2100
+# Template	0.00	97     186 585 757 882      2100
+# Template	0.00	       186 585 757 882 1097
+# Template	0.00	       186 585 757 882      2100
+# Template	0.00	       186         882 1097 2100
+# Template	0.00	           585 757 882      2100
+# Template	0.00	97 143     585 757 882			# 6-one really bad example?
+# Template	0.00	97 143     585 757     1097		# 7-one really bad example?
+# Template	0.00	97         585 757     1097		# 8-one really bad example with Tc clobbering-143 line?
+Template	0.69	       186				# Special case - treat as SLI with higher probability
+# Template	0.00	           585 757 882			# 9-in case low lines are really clobbered
+# Template	0.00	97 143 186                  2100	# 10-one really bad example?
+# Template	0.00	97     186     757			# 11 one really bad example?
+# Template	0.00	97     186                  2100	# 12-one really bad example?
+# Template	0.00	       186     757			# 13 one really bad example?
+# Template	0.00	       186         882      		# 14-one really bad example?
+Template	0.69	   143 186				# 15A
+Template	0.67	97     186				# 15B
+Template	0.68	       186 345
+Template	0.89	   143     345
+Template	1.00  110  143 186
+Template	1.00  110  143 186 345
+Template	0.74        153    345
+Template	1.00  110      186
+Template	1.00  110      186 345
+Template	1.00       143 186 345	
+Class: SNM
+Halflife: 7.038e+08 years
+Shielding: Stl05
+Description: U235 is a special nuclear material.  It is the form of uranium that is enriched for both fuel and military use, and as a result HEU will be reported as U235.
+# TBD
+# Relative intensity of 97/186 should higher for U238, lower for U235
+# There is no-609 line so Bi214 daughter/contam daughter doesn't seem possible
+# *but* no other obvious explantion for 1113, 1762, 2116 lines.  Maybe Bi207?
+# Purified HEU contains approx 0.03% U234, 3.5% U235, and 96.47% U238
+# Within a few days, U235 establishes equilibrium with Th231.
+# Within a few months, U238 establishes equilibirum with Th234 and Pa234m.
+# U234 takes a long time to evolve stable Th230 quantities.
+
+# Don't really like eliminating the 97/186-only template, since that
+# was a legal combination in our old idtree.  However, it does not
+# seem necessary since at least one of the other higher lines always
+# show up, while having the-97 line shielded is extremely common.

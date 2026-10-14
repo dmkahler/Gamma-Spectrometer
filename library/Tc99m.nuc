@@ -1,0 +1,15 @@
+Tc99m
+XRay		  18.320, 6.12
+Gamma		 140.511, 89.06 exp primE primI
+Gamma		 322.400, 0.0097
+Compton		98
+Template	0.75	18 	140
+Template	0.75	   	140
+Template	0.91	   	140	322
+Template	1.00	  98 	140	322
+Template	0.72	  98	140
+Class: MED
+Halflife: 6.01 hours
+Shielding: PMMA76
+Description: Tc99m is one of the most common medical isotopes.  It is readily produced locally, and has a short enough half life to be eliminated quickly from the body.
+# TBD description

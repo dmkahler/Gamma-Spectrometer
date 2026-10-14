@@ -1,0 +1,46 @@
+Pu241
+Gamma		26.345, 30.0
+Gamma		48.650,  0.796	exp	# Really  forward compton scatter on 60-kev line
+Gamma		59.537, 35.9 exp primE primI
+Gamma 		101.98,	 0.398
+Gamma		124.85,	 0.050
+Gamma 		146.55,  0.046
+Gamma		208.01,	 0.079
+Gamma 		335.37,	 0.015
+Gamma		394.000, 0.63 exp multi C(Pu239)
+Gamma		661.46,  0.04
+Gamma		722.01,  0.02
+Compton		440	# from-661 line
+Template 	1.00 					335 	394	Neut
+Template 	1.00 				208 		394	Neut
+Template 	1.00 			    147         335     394	Neut
+Template 	1.00 			    147 208 	335 	394	Neut
+Template	1.00 			102 		335 	394	Neut
+Template 	1.00 		60			335 	394	Neut
+Template 	1.00 		60		208 		394	Neut
+Template 	1.00 		60	    147         335     394	Neut
+Template 	1.00 		60	    147 208 	335 	394	Neut
+Template	1.00 		60	102 		335 	394	Neut
+Template	1.00	26	60				394	Neut
+Template 	1.00		60	102			394	Neut
+Template	0.95		49	102		335	394	Neut
+Template	0.90		49	102			394	Neut
+Template 	0.75 					335 	394 	
+Template 	0.75 				208 		394 	
+Template 	0.75 			    147         335     394     
+Template 	0.75 			    147 208 	335 	394 	
+Template	0.75 			102 		335 	394 	
+Template 	0.75 		60			335 	394 	
+Template 	0.75 		60		208 		394 	
+Template 	0.75 		60	    147         335     394    
+Template 	0.75 		60	    147 208 	335 	394 	
+Template	0.75 		60	102 		335 	394 
+Template	0.95 	26	60	102 			394 	
+Template	0.90	26	60				394
+Template 	0.75		60	102			394
+Template	0.84		49	102		335	394
+Template	0.82		49	102			394	
+Class: SNM
+Halflife: 14.35 years
+Shielding: #
+Description: Pu241 is a contaminant of RgPu.

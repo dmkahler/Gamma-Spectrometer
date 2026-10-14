@@ -1,0 +1,14 @@
+Pd103
+#Gamma		20.590, 77.04 exp primE primI
+Gamma		357.45, 32.3 exp primE primI
+Gamma		497.080, 5.8 
+Template	0.84	357 497
+#Template	0.00	21
+#Template	0.69	21
+Class: MED
+Halflife: 16.991 days 
+Confounds: 
+Shielding: PMMA76
+Prefer:	<list of isotopes that should be preferred if all else equal>
+Description: Pd103 is a medical isotope frequently used...
+

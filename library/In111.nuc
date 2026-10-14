@@ -1,0 +1,16 @@
+In111
+Gamma		  23.650, 82.3
+Gamma		 171.280, 90.0
+Gamma		 245.350, 94.0 exp primE primI
+Backscat	104	# from -171 line
+Backscat	129	# from -245 line
+Template	0.73	171    245
+#Template 	0.76	       245
+Class:	MED
+Halflife: 2.805 days
+Shielding: PMMA76
+Description: In111 is a medical isotope used for ...
+# TBD description and check spectra for primaries
+# Possible slight In110 (657.7,707.4,884.7,937.5,997.2; HL 4.9hrs) contamination
+# 1.00	23 171 245	- disable this template so no way to ID on just any old Xray
+# 0.70	       245	- disable this template on assumption that both-171 &-254 would either show or be shielded

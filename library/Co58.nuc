@@ -1,0 +1,13 @@
+Co58
+Gamma 		511,	 53    exp
+Gamma		810.77,  100.0   exp primI
+Gamma		1674.73, 0.1 
+Backscat	178 # from -511
+Template	1.00	511 811 1675
+Template	0.99	511 811 
+Class: IND
+Halflife: 70.8 days
+Confounds: 
+Prefer:	<list of isotopes that should be preferred if all else equal>
+Shielding: Stl05
+Description: Co58 is an contaminent of Co57, a medical and industrial source. Most easily seen with freshly made, shielded Co57.

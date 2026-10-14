@@ -1,0 +1,11 @@
+I125
+Gamma		28.340, 146.16 exp primE primI
+Template  0.00	28	# SLI
+Class: MED
+Halflife: 60.14 days
+Template	0.69	28
+Confounds: 
+Prefer:	<list of isotopes that should be preferred if all else equal>
+Shielding: PMMA76
+Description: I125 is a medical isotope frequently used...
+

@@ -1,0 +1,17 @@
+Ti44
+Gamma		70,	 100	multi
+Gamma		511,     43.8	exp primI
+Gamma		1157.03, 21.1	exp primE
+Gamma		1499.43, 0.2
+Compton		316 # from -511 line
+Compton		872 % from -1157 line
+Backscat	170 # from -511 line
+Template	0.86 	70 511 1157
+Template	0.70	   511 1157
+Template	0.86	70 511 1157 1499
+Template	0.90	   511 1157 1499
+Class: MED	
+Halflife: 47.3 years
+Shielding: PMMA76
+Description:  
+# TBD

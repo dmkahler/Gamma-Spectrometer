@@ -1,0 +1,10 @@
+Cs131
+Gamma		33.624, 100.00 exp primE primI
+Template  0.75	34	# SLI
+Class: MED
+Halflife: 9.689 days
+Confounds: I125
+Prefer:	<list of isotopes that should be preferred if all else equal>
+Shielding: PMMA76
+Description: Cs131 is a medical isotope frequently used in brachytherapy
+

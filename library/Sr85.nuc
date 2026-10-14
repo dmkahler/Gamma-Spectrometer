@@ -1,0 +1,12 @@
+Sr85
+Gamma		 516.000, 96.0	exp primE PrimI
+Backscat	185
+Compton		318		
+Template	1.00	185 318 516 
+Template	0.95	185 318 516
+Template	0.90	185	516
+Template	0.70		516
+Class: MED
+Halflife: 64.84 days
+Shielding: None
+Description: Sr85 is a medical isotope.  Sr82 is administered to the patient but when made in a reactor there is a small percentage that gets bumped up to Sr85.  Sr85 is a highly active contaminant which may be observed for many months whereas Sr82 has a 76 second halflife and may not be observed in post examinations.

@@ -1,0 +1,27 @@
+Se75
+Gamma		  96.734, 3.42
+Gamma		 132.620, 75.44
+Gamma		 198.606, 2.1
+Gamma		 269.090, 83.29 exp primE primI multi
+Gamma		 400.660, 11.37 exp
+Gamma		 572.200, 0.035
+Backscat	 162 # from -400 line
+Backscat	 185 # from -572 line 
+Template	1.00	97 133 269 401
+Template	1.00	97 133 269 401 572
+Template	1.00	   133 269 401
+Template	1.00	   133 269 401 572
+Template	1.00	   133 269
+Template	1.00	   133 269 401 572
+Template	1.00	       269 401 572
+Template	0.78	       	   401 572
+Template 	0.70 		   401
+Template 	1.00 	       269     572
+Template 	1.00 	       269 401
+Template 	0.75 	   133 	   401 572
+Template 	0.79 	   133 	   401		
+Class: MED
+Halflife: 119.77 days
+Shielding: PMMA76
+Description: Se75 is a medical isotope used for...
+# TBD description, primaries, expected

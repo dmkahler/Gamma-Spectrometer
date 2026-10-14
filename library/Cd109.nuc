@@ -1,0 +1,11 @@
+Cd109
+Gamma		22.590, 102.0
+Gamma		88.034, 3.61	exp primE primI
+Template	0.69	23 88
+Template	0.69	   88
+Class: IND
+Halflife: 462.9 days
+Shielding: PMMA76 Stl05
+Description: Cd109 is an inudstrial isotope most frequently used for ... (X-ray inspection?)
+# TBD description, shielding
+# We would rather ID Co57 that Cd109 if only the 88 line is present, b/c Co57 can have Compton here.

@@ -1,0 +1,16 @@
+F18
+Gamma		511, 193.46 exp primE primI
+Gamma		1022, 0.0 coinc
+Compton		297
+Backscat	178
+Template	0.67		511	1022
+Template	0.70	 	511		# Single line template won't hit below-0.72
+Template	0.76 	   297	511
+Template	0.79  178  297 	511
+Class: MED
+Halflife: 1.8295 hours
+Confounds: C11, N13, Cu64
+# Competitors: As72, As74, Br77, Co55, Co58, Fe58, I124, I133, Mn52, Na22 (primarily), Rb81, Rb84, Sr85, Th232, Tl208, V48, Y86
+Shielding: PMMA76
+Description: F18 is a medical isotope frequently used...
+# SLI normally, and several isotopes have only the annihiliation line, so probably best not to claim too-high conf

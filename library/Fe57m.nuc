@@ -1,0 +1,19 @@
+Fe57m
+Gamma		136.5,  14.1
+Gamma		352.4,  32.8
+Gamma		692.0,  16.4 exp
+Gamma		898.3,   6.6
+Gamma		1019.0,  6.0
+Gamma		1260.6,  8.6
+Gamma		1612.8, 18.6 exp
+Gamma		1725.3, 21.7 exp primE primI
+Neutron
+Template	1.00	137 352 692 898 1019 1261 1613 1725
+Template	1.00	    352 692 898 1019 1261 1613 1725
+Template	1.00	    352 692          1261 1613 1725
+Template	1.00	        692          1261 1613 1725
+Template	1.00	                     1261 1613 1725
+Template	1.00	                          1613		# SLI
+Class: IND
+Halflife: 0 seconds
+Description: Fe57m represents neutron-activated Fe56.

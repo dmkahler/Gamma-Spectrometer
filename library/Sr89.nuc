@@ -1,0 +1,11 @@
+Sr89
+Gamma		514.01	0.0096	# Sr85 contaminent
+Gamma		908.96, 0.0096 exp primE primI
+Template	0.69 	 909
+Template	0.68 514 909
+Class: MED
+Halflife: 50.53 days
+Confounds: 
+Prefer:	<list of isotopes that should be preferred if all else equal>
+Shielding: PMMA76
+Description: Sr89 is a medical isotope frequently used...

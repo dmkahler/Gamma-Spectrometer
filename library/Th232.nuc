@@ -1,0 +1,60 @@
+Th232
+Xray		  73.000, 10	D(X123) # Bi 
+XRay		  93.000, 12.1	D(X123) # Modified upward from-83 based on empirical spectra
+Gamma		 129.100, 2.90	D(Ac228)
+Gamma		 238.600, 16.0 D(Pb212)
+Gamma		 338.000, 4.60 D(Ac228)
+Gamma		 510.770, 1.07 D(Tl208)
+Gamma		 583.000, 4.00 exp primE # D(Tl208)
+Gamma		 727.000, 1.70 D(Bi212)
+Gamma		 860.564, 0.59 D(Tl208)
+Gamma		 911.20,  1.77	exp D(Ac228) # in some cases this line can be resolved
+Gamma		 936.000, 3.20 exp multi D(Ac228)
+Gamma		 967.962, 1.44	exp multi D(Ac228) # in some cases the-911 line can be resolved, leaving this
+Gamma		1247.080, 0.0066 D(Ac228)  
+Gamma		1602.000, 1.00 exp multi D(Ac228) # 1593-double escape thrown in here too
+Gamma		2109.000, 0.1  # 2614 Single escape
+Gamma		2614.533, 0.80 exp primI # D(Tl208)
+Compton		2326			# Compton on the 2615 line
+Template 	1.00 	129 239 338 511 583 727  936 	1247 1602 2109 2615
+Template 	1.00 	129 239     511 	 936 	     1602 2109 2615
+Template 	1.00 	129 	    511     727  936 	     1602 2109 2615
+Template 	1.00 	    239 338 511 583 727  936         1602 2109 2615
+Template 	1.00		    511         911 	     1602 2109 2615
+Template 	1.00 73 129 239 338 511 583 727  936 	1247 1602 2109 2615
+Template 	1.00 73     239 338 511 583 727  936 	1247 1602 2109 2615
+Template 	1.00 73 	    511 583 727  936 	1247 1602 2109 2615
+Template 	1.00 	129 239 338 511 583 727  936 	     1602 2109 2615
+Template 	1.00 	129 239 338 511 583 	 936 	     1602 2109 2615
+Template 	1.00 	129 239 338 	583 727 911 	1247 1602 2109 2615
+Template 	1.00 	129 239 338 	583 727 936 	     1602 2109 2615
+Template 	1.00 	129 239 338 	583 	911 	     1602 2615
+Template 	1.00 	    239 338 511 583 727 936 	1247 1602 2109 2615
+Template 	1.00 	    239 338 511 583 	936 	     1602 2109 2615
+Template 	1.00 	    239 338 	583 727 911          1602 2109 2615
+Template 	1.00 	    239 338 	583 727 936          1602      2615
+Template 	1.00 	    239 338 	583 	911 		       2615
+Template 	1.00 	    239     511 583 	936 	     1602 2109 2615
+Template 	1.00 	    239 	583 727 911 	     1602 2109 2615
+Template 	1.00 	    239 	583 	936
+Template 	1.00 		338 511 583 727 936 	     1602 2109 2615
+Template 	1.00 		    511 	936 	     1602 2615
+Template 	1.00 			583 727 911 	     1602 2109 2615
+Template 	1.00 			583 727 936
+Template 	1.00 			583 	911 	     1602 2109 2615
+Template	1.00		338		936	1247 1602   
+Template	1.00				936	     1602 2109 2615
+Template	1.00	    239			911	     1602 2109 2615
+#Template 	1.00 73     239     511     727 911 968 1247 1602 2109 2615
+#Template 	1.00 	    239 338 511 583 727 911 968      1602 2615
+#Template 	0.67 	    239 	583 727 861 968		
+#Template 	1.00 	    239 	583 	911 968 	  2109 2615
+Template	1.00	    239	338	 		1247	  2109 2615
+Template	0.67						       2615			 	
+Class: NRM
+Halflife: 1.405e+10 years
+Shielding: Stl05 Stl30
+Description: Th232 is a naturally occuring radioative material with some industrial applications.  Although it may be found in various rocks, and although it is part of the decay chain of ???, when found in high concentrations it is often part of thoriated lantern mantles or welding rods.
+# Stl30 shielding not required but should be verified working
+# TBD must determine primaries, fix description
+# Note - Ac228 lines are what clearly distinguishes from U232/U233 which enters chain at Th228

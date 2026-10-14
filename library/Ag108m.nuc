@@ -1,0 +1,12 @@
+Ag108m
+Gamma		433.94,   100	exp primI
+Gamma		614.28	  72	exp
+Gamma		722.91,	  62	primE exp
+Gamma		1120.55,	82 
+Compton		508 # from -614 line
+Template	1.00 	434 614 723
+Class: MED	
+Halflife: 418 years
+Shielding: PMMA76
+Description:  
+# TBD

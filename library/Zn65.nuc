@@ -1,0 +1,14 @@
+Zn65
+Gamma		511,	1.4 
+Gamma		1115.546,	50.6 primE primI exp
+Compton		845
+Backscat	217
+Template	0.77	511	1115
+Template 	0.72		1115
+Template	0.88	    845 1115
+Template	0.95	217 845 1115	
+Class: IND	
+Halflife: 244.26 days
+Shielding: PMMA76
+Description: Zn65 is ...
+# TBD

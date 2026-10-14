@@ -1,0 +1,59 @@
+Ra226
+XRay		  48.000, 0.3	# D, low level can lead to FP if not included
+XRay		  77.000, 5.0
+XRay		  96.7,	  5.0
+#Gamma		 142.000, 0.2	# D, prevent FP on Tc99m or Co57
+Gamma		 186.000, 3.6
+Gamma		 242.000, 7.8	D(Pb214)
+Gamma		 295.000, 4.4	D(Pb214)
+Gamma		 352.000, 5.5	D(Pb214)
+Gamma		 480.000, 0.1
+Gamma		 609.000, 45.5	exp primE primI D(Bi214)
+Gamma		 770.000, 5.9
+Gamma		 938.000, 3.1
+Gamma		1120.000, 14.9	exp D(Bi214)
+Gamma		1258.000, 5.8	D(Bi214)
+Gamma		1402.000, 0.3
+Gamma		1531.000, 0.1
+Gamma		1768.000, 15.3	exp D(Bi214)
+Gamma		2197.000, 5.1	D(Bi214)
+Gamma		2447.000, 1.5	D(Bi214)
+Gamma		2719.000, 0.051 D(Bi214) multi
+Gamma		2956.000, 0.027	D(Bi214) multi
+Backscat	237	# from -1768 line
+Backscat	154	# from -352 line
+Template	1.00	186 242 295 352 609 770 938 1120 1402 1768 2197
+Template	1.00	186 242 295 352 609 770 938 1120 1402 1768 2197	2447 
+Template	1.00	186 	    352	609	    	      1768
+Template	1.00			609	    1120      1768 2197
+Template	1.00		295 352	609	    1120      1768
+Template	0.90			609	    1120      1768
+Template	1.00	    242 295 352 609 770 938 1120 1402 1768 2197
+Template	1.00	 	    352	609	    	      1768
+Template	1.00			    770     1120 1402 1768 2197 2447
+Template	1.00			            1120 1402 1768 2197 2447
+Template 	0.80 				    1120 1258
+Template 	0.77					      1768 2197
+Template 	1.00 		    352 609 	    1120
+Template 	1.00 		    352 609 	    1120      1768 2197
+Template 	1.00 		    352 609 	    1120 	   2197
+Template 	1.00 		    352 609 770
+Template 	1.00 	            352 609 770     1120 1258 1402
+Template 	1.00 	            352 609 770     1120      1768
+Template 	1.00 		    352 609 770 938 1120 1258 1768 2197 2447
+Template 	1.00 			609 	    1120 1531
+Template 	1.00 			609 		 1402 1531 1768
+Template 	0.94 				938 1120      1768 2197
+#Template	1.00	186 242 295 352 609 770 938 1120 1402 1768 2197	     2719
+#Template	1.00	186 242 295 352 609 770 938 1120 1402 1768 2197	2447 2719
+#Template	1.00	    242 295 352 609 770 938 1120 1402 1768 2197	     2719
+#Template	1.00	    242 295 352 609 770 938 1120 1402 1768 2197	     2719	2956
+#Template	1.00	186 242 295 352 609 770 938 1120 1402 1768 2197	     2719	2956
+Template	1.00  		295 352	609
+Template 	0.80		    352	609		
+Class: NRM
+Halflife: 1600.0 years
+Shielding: Stl05 Stl30
+Description: Ra226 is a naturally occuring radioactive material normally found in rocks.  At one time, it was used in radium dial watches and other "glow in the dark" devices, but is now considered too hazardous for such applications.  It is normally recognized by (and reported with) its daughter isotopes, which include radon gas.
+# Stl30 shielding not required but should be verified working
+# TBD primaries

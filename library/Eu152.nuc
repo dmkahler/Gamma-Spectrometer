@@ -1,0 +1,57 @@
+Eu152
+Gamma		  41.007, 73.8
+Gamma		  82.014, 0.0 coinc
+Gamma		 121.783, 28.4
+Gamma		 162.790, 0.0 coinc
+Gamma		 244.699, 7.49
+Gamma		 344.281, 26.6 exp
+Gamma		 411.115, 2.23
+Gamma		 443.976, 2.78
+Gamma		 569.054, 0.59
+Gamma		 778.903, 12.96 exp
+Gamma		 867.388, 4.153
+Gamma		 964.131, 14.34 exp
+Gamma		1101.040, 23.68 exp
+Gamma		1408.011, 20.85	exp primE primI
+Backscat	151	# from -344 line
+Backscat	212	# from -1101 line
+Template	1.00		122 	245 	344 		779 	964 	1101 	1408
+Template	0.91    		245 	344     		964 	1101 	1408
+Template	0.86				344		779	964	1101 	1408
+Template	0.90						779	964	1101 	1408
+Template	0.90							964	1101 	1408
+Template	1.00	41 82 	122	 245	344 444 569 	779 	964 	1101  	1408
+Template	1.00	   82 	122	 245	344 444  	779 	964 	1101  	1408
+Template	1.00	   82 		 245	344 444  	779 	964 	1101  	1408
+Template 	0.67 								1101 	1408
+Template 	1.00 		122 						1101 	1408
+Template 	1.00 		122 	245 	344 444 569 	779 	964 	1101 	1408
+Template 	1.00 		122 	245 	344 444 	779 	964 	1101 	1408
+Template 	1.00 		122 				779 	964 	1101 	1408
+#Template 	0.78								 	1408
+Template 	1.00 			245 	344 444 	779 	964 	1101 	1408
+Template 	0.95 			245 	344 		779 	964 	1101 	1408
+Template 	1.00 				344 411 			1101 	1408
+Template 	1.00 				344 	569 	779 	964 	1101 	1408
+Template 	0.66 				344 			964	
+Template 	1.00 	41 	122 	245 	344 444 	779 	964 	1101 	1408
+Template 	1.00 	41 	122 	245 	344 		779 	964 	1101 	1408
+Template 	1.00 	41 	122 		344 444 			1101 	1408
+#Template 	0.71 	41 								1408
+Template 	0.90 	41 	344 				779 	964 	1101
+Template 	0.90 	41 					779 	964 	1101 	1408
+Template 	0.66 	41 					779 	964 		1408
+Template 	1.00 					569 	779 	964 	1101 	1408
+Template 	1.00 					569 		964 	1101 	1408
+Template 	0.66 						779
+Template 	0.82						779 	964 	1101
+Template 	0.90 						    867 964 	1101
+Class: MED
+Halflife: 13.542 years
+Shielding: Stl05 Stl30
+Description: Eu152 is an industrial isotope frequently used as a check source.  The large number of lines make it useful for energy calibrations.
+# Note: Large number of coincidence decays, such as 2*42=82 and
+# 41+122=163.  Will we use this information at all?
+# Stl30 shielding not required but should be verified working
+# TBD primaries - is using 1408 (close to-1461) likely to cause problem?
+# 568 line must be included even though small otherwise U233 will appear on matching lines

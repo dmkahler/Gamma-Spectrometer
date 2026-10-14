@@ -1,0 +1,32 @@
+Y88
+Gamma		 511.000,	1.9	# annihilation line?	
+Gamma		 898.042,	94.3 exp D(X123) # unique case two strong lines med and high energy sheilded cases can really mess with cross correlation fake it out by making a faux daughter
+Gamma		1325.063,	3.0 # Single Escape on-1836	  
+Gamma		1836.063,	99.24 primE primI exp
+Gamma		2223.063,	0.011	# Single escape on-2734
+Gamma		2734.000,	0.71
+Backscat	209
+Backscat	238
+Compton		640
+Compton		1550
+Compton		2450
+Template	0.88		898 		1836
+Template	1.00	511	898	1325	1836	2223	2734
+Template	0.84	511	898		1836
+Template	1.00	511	898	1325	1836
+Template	1.00		898	1325	1836
+Template 	1.00 			1325 	1836
+Template 	0.80 				1836
+Template 	1.00 	511 			1836
+Template 	1.00 	511 	898 	1325 	1836 		2734
+Template 	1.00 	511 	898 		1836 	2223
+Template 	1.00 	511 	898 		1836 		2734
+Template 	1.00 		898 	1325 	1836
+Template 	1.00 		898 	1325 	1836 	2223 	2734
+Template 	1.00 		898 		1836 	2223 	2734
+Template 	1.00 		898 		1836 		2734
+Class: IND	
+Halflife: 5.243 days
+Shielding: PMMA76
+Description: Y88 is ...
+# TBD

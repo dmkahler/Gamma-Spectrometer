@@ -1,0 +1,43 @@
+Pu240
+Gamma		 45.244, 0.0447
+Gamma		 104.234, 7.14E-3 exp primI
+Gamma		 160.308, 4.02E-4 exp primE
+Gamma		 642.35, 1.3E-5
+Gamma		 873.92,  5.8E-7  exp
+Gamma		 967,	  3E-8
+Compton		 408	# from -642 line
+Backscat	 192	# from -642 line
+Template	1.00	45 104 160 	642
+Template	0.67	   104 160 	642
+Template	1.00	   104 160 	642 874
+Template	1.00	   104 160 	642 874 967
+Template	0.67	       160 	642 
+Template 	0.75 	   104 160
+Template 	1.00 	   104 160 408 	642 874
+Template 	1.00       104 160 	642 	967
+Template 	0.77       104 		642
+#Template 	0.67 	       160
+Template 	1.00 	       160 192 408 642 874
+Template 	1.00           160 192 	642 874
+Template 	1.00           160 408 	642 874
+Template 	0.67           160 	642 874
+Template 	1.00           160 	642 874 967
+Template 	1.00 		192 408 642 874
+Template 	0.85 		192 	642 874
+Template 	0.67 			408 642
+Template 	0.76 			408 642 874
+Template 	1.00 	45 104 160
+Template 	1.00 	45 104 160 408 	642
+Template 	1.00 	45 104 160 	642 874 967
+Template 	0.68 			642 874
+Template 	1.00 			642 874 967
+Template 	0.72 			642 	967
+#Template 	1.00 	   104 160 408 	642 874 967
+#Template 	1.00 	       160 192 408 642 874 967
+#Template 	1.00 		192 408 642 874 967
+#Template 	1.00 		192 	642 874 967
+#Template 	1.00 	45 104 160 408 	642 874 967
+Class: SNM
+Halflife: 6561 years
+Shielding: #
+Description: Pu240 is the primary component of RGPu.

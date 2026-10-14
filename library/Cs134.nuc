@@ -1,0 +1,37 @@
+Cs134
+XRay		32.876,   0.82
+Gamma		475.365,  1.48
+Gamma		597.386,  121.33 exp multi		# -563.246,569.331,604.721
+Gamma		796.422,  94.15 exp primE primI multi	# -795.864,801.953
+Gamma		1038.610, 0.99
+Gamma		1167.968, 1.79
+Gamma		1365.185, 3.02
+Backscat	187	# from-597 line
+Backscat	203	# from-796 line
+Compton		363	# from-597 line ... compton for-796 is on top of-597 and cant be seen
+Template	1.00	32 475 597 796
+Template	1.00	       597 796 		1167 1365
+Template	1.00	       597 796 	1039	1167 1365
+Template	1.00	           796 	1039	1167 1365
+Template	0.93	       597 796      	     1365
+Template	0.67	       597 796
+Template	0.72	           796
+Template 	1.00 		   796 		     1365
+Template 	1.00 		   796 		1168 1365
+Template 	0.69 		   796 		1168
+Template 	1.00 		   796 	1039 	1168 1365
+Template 	1.00 	       597 796 		1168
+Template 	1.00 	       597 796 	1039 	     1365
+Template 	1.00 	       597 796  1039 	1168
+Template 	1.00 	       597 796  1039
+#Template 	0.67 	       597
+Template 	1.00 	   475     796 		     1365
+Template 	0.80 	   475     796
+Template        1.00 	   475 597 796 		     1365
+Template 	1.00       475 597 796          1168 1365
+Template 	1.00       475 597 796  1039 	1168 1365
+Class: IND
+Halflife: 2.0652 years
+Confounds: tbd
+Shielding: tbd
+Description: Cs134 is a reactor or fission product and sometimes used as a calibration check source.

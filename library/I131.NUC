@@ -1,0 +1,55 @@
+I131
+Gamma		  30.400, 4.85
+Gamma		  80.183, 2.62
+Gamma		 284.298, 6.06
+Gamma		 364.480, 81.2 exp primI
+Gamma		 503.004, 0.36
+Gamma		 636.973, 7.27 exp primE
+Gamma		 722.911, 2.17
+Backscat	 156	# from -364 line
+Backscat	 192	# from -637 line
+Template	1.00	30 80     284 364     637 723
+Template	1.00	   80     284 364     637 723
+Template	1.00	30 80     284 364 503 637 723
+Template	1.00	   80     284 364 503 637 723
+Template	1.00	          284 364     637
+Template	1.00	          284 364     637 723
+Template	0.72	              364     637
+Template	1.00	              364     637 723
+Template	1.00	              	  503 637 723
+Template	0.93	              	      637 723
+Template	0.85	          284         637
+Template	0.67	          284 364
+Template	0.00	              	      637	# Single line template won't hit below-0.72
+Template	1.00	30 80 156 284 364     637 723
+Template	1.00	   80 156 284 364     637 723
+Template	1.00	30 80 156 284 364 503 637 723
+Template	1.00	   80 156     364 503 637 723
+Template	1.00	   80 156 284 364 503 637 723
+Template	1.00	      156 284 364     637
+Template	1.00	      156     364 503 637 723
+Template	0.90	      156     364     637
+Template	0.69	      156 284 364
+Template 	1.00 		  284 364 503 637 723
+Template 	1.00 		  284 	      637 723
+Template 	1.00 	30	  284         637 723
+Template 	0.72 	30 	      364     637
+Template 	1.00 	30 	      364     637 723
+Template 	1.00 	30 80 	      364     637
+Template 	0.67 		      364
+Template 	1.00 		      364 503 637
+Template 	1.00 		      364 503 637 723
+Template 	0.67 			  503 637
+Template 	1.00 	   80 	  284 364 503 637
+Template 	1.00 	   80 	  284 364     637
+Template 	1.00 	   80 	      364 503 637 723
+Template 	1.00 	   80 	      364     637
+Template 	1.00 	   80 	      364     637 723
+Class: MED
+Halflife: 8.04 days
+Shielding: PMMA76
+Description: I131 is a medical isotope used for thyroid scans and other procedures.
+# Note: Added 722.9 per ARA data in consultation with nudat.  Possible
+# peak shape candidate?
+# Ba133 should always match or outrank I131  when 636 & 723 are absent
+# I131  should always match or outrank Ba133 when 636 (or 723?) is present

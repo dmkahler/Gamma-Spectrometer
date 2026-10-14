@@ -1,0 +1,13 @@
+Xe133m
+xray		31.630,	49.7
+Gamma		81.000,	38.27
+Gamma		233.000,	91.37 primE primI exp
+Backscat	126
+Template	0.67	31 81 233
+Template	0.67	31 233 # 
+Template	0.74	   233	# Single line template won't hit below-0.72
+Class: MED	
+Halflife: 2.198 days
+Shielding: PMMA76
+Description: Xe133 is a medical isotope used imaging the lungs.
+# TBD

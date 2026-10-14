@@ -1,0 +1,20 @@
+Ag110m
+Gamma		446.81,  9.2	
+Gamma		657.76,  15.8    exp primE primI
+Gamma		764.94,  3.5   
+Gamma		884.68   9.3	 exp	
+Gamma		937.49,  4.3     # may not be resolved in NaI
+Gamma 		1384.30, 1.7 
+Gamma		1505.04, 0.9
+Backscat	186 # from -658 line	
+Template 	1.00	447 658 765 884 1384 1505
+Template 	0.90	447 658 765 884 1384
+Template 	0.90	447 658     884 1384 
+Template 	0.80	447 658     884 
+Template 	0.70	    658     884 
+Class: IND
+Halflife: 249.9 days
+Confounds: 
+Prefer:	<list of isotopes that should be preferred if all else equal>
+Shielding: Stl05
+Description:

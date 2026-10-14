@@ -1,0 +1,10 @@
+Xe133
+XRay		31.630,	49.7
+Gamma		81.000,	38.27 primE primI exp
+Template	0.67	31 81
+Template	0.67	   81	# Single line template won't hit below-0.72
+Class: MED	
+Halflife: 5.243 days
+Shielding: PMMA76
+Description: Xe133 is a medical isotope used...
+# TBD

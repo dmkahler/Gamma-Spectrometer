@@ -1,0 +1,53 @@
+U238
+Xray		  112,	  3
+Xray 		  97,	  3
+Gamma		  63.290  3.4 D(Th234)	
+Gamma		  92.000, 5.3 multi D(Th234)
+Gamma		 258.26,  0.52 D(Pa234m)
+Gamma		 766.000, 2.0 D(Pa234m) exp
+Gamma		1001.000, 6.0 primE primI D(Pa234m) exp
+Gamma		1193.77,  0.1 D(Pa234)
+Gamma		1510.20,  0.09 D(Pa234m)
+Gamma		1737.73,  0.15 D(Pa234)
+Gamma		1844.072, 0.8 multi D(Pa234m)
+Backscat	206 # from both -766 and -1001 lines 
+Compton		508
+Template	1.00		92 		766 	1001
+Template	1.00		92     			1001
+Template	1.00		97 		766 	1001
+Template	1.00		97     			1001
+Template	0.67		   112 		766 	1001
+Template	0.67		   112    		1001
+Template	1.00		92 112    		1001
+Template	1.00	63	92 112    		1001
+Template	1.00	63	92 	    		1001
+Template	1.00	63	92 112 		766 	1001
+Template	1.00	63	92 112 		766 	1001			1737 	1844
+Template	1.00				766 	1001			1737 	1844
+Template	1.00	63	92     	258	766	1001	1194	1510	1737	1844
+Template 	0.74 					1001
+Template 	0.73 					1001 				1844
+Template 	1.00 		   112 		766 	1001 				1844
+Template 	1.00 		       	258 	766 	1001
+Template 	1.00 			258 	766 	1001 	1194 		1738 	1844
+Template 	1.00			258 	766 	1001 			1738 	1844
+Template 	1.00 			258 	766 	1001 				1844
+Template 	1.00 	63 	92 			1001
+Template 	1.00 	63 92 		258 	766 	1001
+Template 	1.00 	63 92 			766
+Template 	1.00 	63 92 			766 	1001
+Template 	1.00 	63 92 			766 	1001 			1738 	1844
+Template 	1.00 	63 92 			766 	1001 				1844
+Template 	1.00 				766 	1001
+Template 	1.00 				766 	1001 	1194 		1738 	1844
+Template 	1.00 				766 	1001 				1844
+Template 	1.00 	   92 		258 	766 	1001
+Template 	1.00 	   92 		258 	766 	1001 				1844
+Template 	1.00 	   92 			766 	1001 				1844
+Class: SNM
+Halflife: 4.468e+09 years
+Shielding: Stl05 Stl30
+Description: U238 is a naturally occuring radioactive material.  It is the primary component remaining in depleted uranium (DU), so DU will also be identified as U238.
+# Stl30 shielding not required but should be verified working
+# TBD
+# Relative intensity of 97/186 should be higher for U238, lower for U235

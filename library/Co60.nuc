@@ -1,0 +1,18 @@
+Co60
+Gamma		 511.000, 1.00 # annh?
+Gamma		1173.237, 99.9 exp primE primI
+Gamma		1332.501, 99.982 exp
+Gamma		2229,	  0.0 coinc # Compton edge and full 1332-peak
+Gamma		2505.740, 0.0 coinc # 1173- and 1332-
+Compton		897	  	# from -1173 line 
+Backscat	220
+Template	1.00		1173 1333 2506
+Template	0.92		1173 1333
+Template	0.72		1173
+Template	0.72	     	     1333
+Template	0.84	511	1173 1333 
+Class: IND
+Halflife: 5.27 years
+Shielding: Stl05 Stl30
+Description: Co60 is an industrial isotope used in food irradiation.  It is also sometimes used in medical radiation applications, and as a check source.  It is considered a significant dirty bomb threat.
+# TBD primaries and description

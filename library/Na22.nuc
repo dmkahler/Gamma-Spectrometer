@@ -1,0 +1,20 @@
+Na22
+Gamma		 511.000, 179.79 exp
+Gamma		1022.000, 0.0 coinc
+Gamma 		763.53,	  0.1 # Single escape Peak 
+Gamma		1274.530, 99.944 exp primE primI
+Gamma		1785.000, 0.0 coinc
+Compton		297
+Compton		1007
+Backscat	220		# backscatter on the-1274 line
+Backscat	173		# backscatter on the-511 line
+Template	1.00	511 	1022 1274 1785
+Template	0.72	511 	     1274
+Template	1.00	511 763      1274
+Template	1.00	    763	     1274
+Template 	0.80	 	     1274
+Class: MED
+Halflife: 2.609 years
+Shielding: Stl05 Stl30
+Description: Na22 is an industrial isotope frequently used as a check source.
+# Stl30 shielding not required but should be verified working

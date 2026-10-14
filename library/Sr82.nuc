@@ -1,0 +1,8 @@
+Sr82 
+Gamma		777.000,  15.0  exp primE primI D(Rb82)
+Template	0.80	 777
+Class: MED
+Halflife: 76 seconds (Rb82)
+Shielding: None
+Description: Sr82 is a medical isotope.  Sr82 is administered to the patient but it only has very low energy x-rays.  Therefore Sr82 is observed by analyzing the daughter (Rb82) which has a 76 second halflife.
+  

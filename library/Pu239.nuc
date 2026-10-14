@@ -1,0 +1,65 @@
+Pu239
+Xray		  94,     360	# conv of several
+Gamma		  51.624, 2722
+Gamma		 129.296, 631
+Gamma 		 203.55,  55
+Gamma		 333.449, 0.605
+Gamma		 375.054,  155.4 exp
+Gamma		 394.000, 200 exp primE primI  # convolution of-375 and-414 and others, but only seen in some sheilded configurations
+Gamma		 413.715,   146.6 exp
+Gamma		 645.94, 1.52 exp # ARA estimate
+Gamma		 769.15, 0.51 # ARA estimate
+Backscat	156		# Backscatter of the-375 line
+Backscat	160		# Backscatter of the-414 line
+Template	1.00 	   				394 		645 	769
+Template	1.00	   156	        204			        645	769	
+Template	1.00			204				645	769
+Template 	0.67	94				394		645
+Template 	1.00	94				394		645	769
+Template 	1.00			204		394		645	769
+Template	1.00						413	645
+Template	1.00						413	645	769
+Template	0.79							645	769 # heavy shielding
+Template	0.76	   				394     		769		# In case Cs137 clobbers-653 line.
+Template 	0.79			204 	375
+Template 	0.68 			204 		394
+Template 	0.81 			204 		394 		646
+Template 	1.00 				375 	394 		646 	769
+Template 	1.00 				375 		414 	646 	769
+Template 	0.68 				375 			646
+Template 	1.00 				375 			646 	769
+Template 	1.00 					394 	414 	646 	769
+Template 	0.85 					394 		646
+Template 	1.00 52  94 		204 	375
+Template 	1.00 52  94 		204 		394
+Template 	1.00 52  94 		    	375
+Template 	1.00	 94 		204 333 	394 		646 	769
+Template 	1.00 	 94 		204 	375
+Template 	1.00 	 94 		204 	375 			646 	769
+Template 	1.00 	 94 		204 			394 		646 	769
+Template 	1.00 	 94 			375 		414
+Template 	1.00 	 94 			375 			646
+Template 	1.00 	 94 			375 			646 	769
+Template 	0.67 	 94 						646
+Template	1.00 52  94 129			375		414
+Template	1.00 52  94 129				394
+Template	1.00	 94 129			375		414
+Template	1.00	 94 129				394	
+Template	1.00	 94 129		204	375		414
+Template	1.00	 94 129		204		394
+Template	1.00	 94 129		204 333 	394
+Template	1.00 51	94		204	375			645 	769		Neut
+Template	1.00	94				394					Neut
+Template 	1.00	94				394		645			Neut
+Template	1.00	   				394     		769		Neut
+Template 	1.00			204 	375						Neut
+Template 	1.00 			204 		394					Neut
+Template 	1.00 			204 		394 		646			Neut
+Template 	1.00				375 			646			Neut
+Template 	1.00 					394 		646			Neut
+Template 	1.00 	 94 						646			Neut
+Class: SNM
+Halflife: 2.413e+04 years
+Shielding: Stl05
+Description: Pu239 is a special nuclear material.  Although it can be used as a fuel source, it is more commonly used for military applications.  It is most readily detected through its neutron emissions.
+# TBD more info about neutrons?

@@ -1,0 +1,31 @@
+Mo99
+Gamma		  18.330, 3.08
+Gamma		  40.585, 1.05
+Gamma		 181.063, 6.08
+Gamma		 366.421, 1.19
+Gamma		 749.700, 16.47 exp primE primI
+Gamma		960.754, 0.094
+Backscat	109	# from -181 line
+Backscat	201	# from -750 line
+Compton 	504
+Template	0.73 18 181 	750
+Template	1.00 18 181 366 750 960
+Template	1.00 18 181 366 750 
+Template	0.73 18 181 	750
+Template	1.00 18 181     750 960
+Template	1.00    181 366 750 960
+Template	0.82    181 	750
+Template	1.00    181 366 750 960
+Template	1.00        366 750 960
+Template	1.00    181     750 960
+Template	1.00   	        750 960
+Template 	0.67	        750
+Template 	1.00 41 181 366 750 960
+Template 	1.00 41 181 366 750
+Template 	0.72 	    366 750
+Template 	1.00 	181 366 750
+Class: MED
+Halflife: 65.94 hours
+Shielding: PMMA76
+Description: Mo99 is a medical isotope most frequently used for ...
+# TBD

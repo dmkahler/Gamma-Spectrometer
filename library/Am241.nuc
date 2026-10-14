@@ -1,0 +1,15 @@
+Am241
+Gamma		26.345, 30.0
+Gamma		48.650,  0.00	exp	# Really  forward compton scatter on 60-kev line
+Gamma		59.537, 35.9 exp primE primI
+Gamma 		101.98,	 0.398
+Template	0.85	26      59		# Rare unless alone, unshielded
+Template	0.80	        59		# SLI
+Template	0.75	   48			# SLI
+Template 	0.90	26	59	102
+Class: SNM
+Halflife: 432.2 years
+Confounds: 
+Prefer:	<list of isotopes that should be preferred if all else equal>
+Shielding: Stl05
+Description: Am241 is a synthetic industrial isotope frequently used in smoke detectors and in some industrial equipment.

@@ -1,0 +1,29 @@
+Lu176
+XRay            56.133, 32.98
+Gamma           88.34, 14.50
+Gamma           201.83, 78.00 exp
+Gamma           306.78, 93.60 exp primE primI # Actually-306.78 but trying to push away from Np237 line
+Gamma           400.99, 0.37 # Actually 400.99 but trying to push away from Np237 line
+Gamma           508.61, 0.0 coinc
+Backscat	145 # from -306 line
+Backscat	116 # from -202 line
+Template        1.00    56 88 202 306     509
+Template        1.00    56 88 202 306
+Template        1.00       88 202 306     509
+Template        1.00       88 202 306
+Template        1.00          202 306     509
+Template        0.91          202 306
+Template        1.00    56 88 202 306 401 509
+Template        1.00   	   88 202 306 401 
+Template        1.00   	      202 306 401 
+Template        1.00    56 88 202 306
+Template        1.00       88 202 306 401 509
+Template        1.00          202 306 401 509
+Template        0.89          202 306
+Template	0.75		  306
+Template	0.82	          306 401
+Template 	0.70		      401
+Class: NRM
+Halflife: 3.76e10 years
+Confounds: tbd
+Description: Lu176 is a naturally occurring isotope which may be used for energy calibration.

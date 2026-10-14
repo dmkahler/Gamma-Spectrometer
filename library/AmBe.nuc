@@ -1,0 +1,63 @@
+AmBe
+Gamma		26.345, 30.0
+Gamma		48.650,  0.00		# Really a Compton but can't mark it as such if you want ID
+Gamma		59.537, 35.9 exp primE primI
+Gamma 		101.98,	 0.398
+Gamma		124.85,	 0.050
+Gamma 		146.55,  0.046
+Gamma		208.01,	 0.079
+Gamma 		335.37,	 0.015
+Gamma		371.65,	 0.012 multi
+Gamma		661.46,  0.04 exp
+Gamma		722.01,  0.02
+Compton		440	# from-661 line
+Neutron
+Template	1.00	26      59		# Rare unless alone, unshielded
+Template	0.80	        59		# SLI
+Template	0.75	   48			# SLI
+Template 	1.00	26	59			335
+Template	1.00 							661 722
+Template 	1.00 		59					    722
+Template 	1.00 		59	102 				661
+Template 	1.00		59 	102 		335 		661
+Template 	1.00 		59 	102 		335
+Template 	1.00 		59 	102	208 	335 		661
+Template 	1.00 		59 	102 	208 	335
+Template 	1.00 		59 	102
+Template 	1.00 	    		102 	208 	335 		661
+Template 	0.88 						372 	661
+Template 	0.82 					335 		661
+Template 	1.00 					335 	372 	661
+Template 	1.00  			125 147 208 	335 		661
+Template 	1.00 				208 			661 722
+Template 	0.68 				208 			661
+Template 	1.00 				208 		372 	661
+Template 	1.00 				208 	335 		661
+Template 	0.86 			    147 			661
+Template 	1.00			    147 	335 		661
+Template 	1.00 			    147         335     372     661
+Template 	1.00 			    147 208 			661
+Template 	1.00 			    147 208 	335 		661
+Template 	1.00 			    147 208 	335 	372 	661
+Template 	0.68 			125 				661
+Template 	1.00 			125 		335 		661
+Template 	1.00 			125 	208 	335 		661
+Template 	0.74			102 				661
+Template 	1.00 			102 		335 		661
+Template 	1.00 			102 147 			661
+Template 	1.00 			102 125 			661
+#Template 	1.00 			102 147 208	335 		661
+#Template	1.00 			102 		335 	372 	661
+#Template 	1.00 			102 				661 722
+#Template 	1.00 			    147 			661 722
+#Template	1.00 				208 	335 		661 722
+#Template 	1.00 					335 		661 722
+#Template	1.00	26	59			335		661
+#Template	1.00	26      59 					661 722	# Rare unless alone, unshielded and long collection
+Class: SNM
+Halflife: 432.2 years
+Confounds: 
+Prefer:	<list of isotopes that should be preferred if all else equal>
+Shielding: Stl05
+
+Description: AmBe is a synthetic industrial isotope used as a neutron source primarily for industrial inspection.

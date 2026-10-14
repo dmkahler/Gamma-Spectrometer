@@ -1,0 +1,17 @@
+Cs137
+XRay		32.890, 7.124
+Gamma		661.66, 90.0 exp primE primI
+Backscat	189
+Compton		440
+Template	0.75	32 189 440 662
+Template	0.74	32 	   662
+Template	0.83	       440 662
+Template	0.74	           662	# SLI version needs to be low enough to lose if not needed
+Template	0.75	   189		662
+Template 	0.87	   189	440	662
+Class: IND
+Halflife: 30.0 years
+Confounds: Ba133, Ra226, U233, I125
+Shielding: Stl05 Stl30
+Prefer:	<list of isotopes that should be preferred if all else equal>
+Description: Cs137 is an industrial isotope frequently used as a calibration check source.  It is also a potential dirty-bomb material but must be present in large quantities.

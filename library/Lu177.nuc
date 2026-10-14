@@ -1,0 +1,14 @@
+Lu177
+XRay            65,		5.36 
+Gamma           112.95, 6.4 
+Gamma           208.37, 11  exp 
+Gamma           321.32, 0.2 
+Gamma           400, 	0.4 multi 
+Template        1.00    65 113 208 321 400
+Template		0.95	65 113 208 321 
+Template 		0.90    65 113 208
+Template		0.80	   113 208
+Class: IND
+Halflife: 160.88 days #Lu177m
+Confounds: tbd
+Description: The metastable state has a longer halflife than the ground state. Expect these to be in equilibrium.

@@ -1,0 +1,24 @@
+Sb124
+Gamma		602.73,	 19.9 primE primI exp
+Gamma		721,	 1.9  multi
+Gamma		968.2,   0.4
+Gamma		1006,    0.8	# conv of -968 and -1045 lines
+Gamma		1045.13  0.4
+Gamma		1198,    0.1	# single escape from 1691 line
+Gamma		1368.17  1.7
+Gamma		1690.98, 4.3  exp 
+Gamma		2090.95, 0.4
+Compton		389 # from -603 line
+Template	1.00 603 721 968 1045 1198 1368 1691 2091
+template	1.00 603 721   1006   1198 1368 1691 2091
+Template 	0.97 603 721 968 1045      1368 1691 2091
+Template	0.97 603 721   1006        1368 1691 2091
+Template	0.90 603 721		   1368	1691 2091
+Template	0.85 603 721                    1691 2091
+Template	0.85 603 721                    1691
+Template	0.72 603 			1691
+Class: MED	
+Halflife: 60.2 days
+Shielding: PMMA76
+Description:  
+# TBD

@@ -1,0 +1,54 @@
+I123
+Gamma		  28.040, 86.8
+Gamma		 158.970, 83.3 exp primE primI
+Gamma		 247.96, 0.071
+Gamma		 281.03, 0.079
+Gamma		 346.35, 0.126
+Gamma		 440.02, 0.428
+Gamma 		 528.96, 1.475 exp
+Gamma		 624.57, 0.083
+Gamma 		 735.78, 0.062
+Backscat	 101	# from -159 line
+Backscat	 180	# from -528 line
+Compton		 306	# from -528 line
+#Template	1.00	28 159 247 281 346 440 528 624 735
+#Template	1.00	   159 247 281 346 440 528 624 735 
+Template	1.00	   159 		   440 528     735 
+Template	1.00	   159 	       346 440 528     735
+#Template	1.00	28 159 247 281 346 440 528     735
+#Template	1.00	   159 247 281 346 440 528     735 
+Template	1.00	28 159 247     346 440 528     735
+Template	1.00	   159 247     346 440 528     735 
+Template	1.00	28 159 247     346 440 528 624 735
+Template	1.00	   159 247     346 440 528 624 735
+Template	1.00	28 159                 528 624 
+Template	0.90	   159                 528 624 
+Template	0.00	28 159
+Template	0.67	   159
+Template	1.00			       528 624 735
+Template	1.00	   		   440 528     735
+Template	1.00	   		       528     735
+Template 	1.00 	   159 247     346 440 528
+Template 	1.00 	   159 247 	   440 528     735
+Template 	1.00 	   159 	   281 346 440 528 624 735
+Template 	1.00       159 	       346 440 528
+Template 	1.00 	   159 	       346 440 528 624 735
+Template 	1.00       159 	       346 440 528     735
+Template 	0.85       159             440 528
+Template  	1.00       159 		   440 528 624 735
+Template 	0.67 	   159 		       528
+Template 	0.85 	   159 		       528     735
+Template 	1.00 	28 159 		   440 528 624 735
+Template 	1.00 		       346 440 528 624 735
+Template 	1.00                   346 440 528     735
+Template 	1.00                       440 528
+Template 	1.00                       440 528 624 735
+Template 	0.72 			       528
+Template 	0.80 			       528 624
+Template 	1.00                           528 624 735
+Class: MED
+Halflife: 13.2 hours
+Shielding: PMMA76
+Description: I123 is a medical isotope used for thyroid scans and other procedures.
+# Note: No example spectra that I know of.
+# TBD description

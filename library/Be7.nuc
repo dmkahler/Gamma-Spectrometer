@@ -1,0 +1,13 @@
+Be7
+Gamma		 477.6, 100 exp primE primI
+Compton		285
+Backscat	 162
+Template	1.00	162 285 478
+Template	0.85	    285 478
+Template	0.74		478 #SLI
+Class: IND
+Halflife: 53.4 days
+Shielding: Stl05 Stl30
+Description: 
+# TBD description
+

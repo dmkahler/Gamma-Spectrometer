@@ -1,0 +1,28 @@
+Ba133
+Gamma		  31.600, 109.0
+Gamma		  80.900, 57.0
+Gamma		 160.610, 0.65
+Gamma		 295.420, 25.5 exp
+Gamma		 360.000, 71.0 exp primE primI
+Backscat	 146
+Template	1.00	31 80 	 295  360
+Template	0.90	   80 	 295  360
+Template	0.75	      	 295  360
+Template	0.76	   146        360	# 
+Template	0.72	              360	# Single line template won't hit below-0.72
+Template	1.00	31 80 160 295 360
+Template	1.00	   80 160 295 360
+Template	1.00	      160 295 360
+Template	0.75	      160     360
+Template	1.00	   80 160     360
+#Template 	0.67 	   80 	      360
+Template 	1.00       80 160     360
+Template 	0.66 	31 	      360
+Template 	0.79    31    160     360
+Class: IND
+Halflife: 10.52 years
+Shielding: Stl05 Stl30
+Description: Ba133 is an industrial isotope most frequently used...
+# TBD description
+# Ba133 should always match or outrank I131  when-636 &-723 are absent
+# I131  should always match or outrank Ba133 when-636 (or-723?) is present

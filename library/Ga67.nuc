@@ -1,0 +1,47 @@
+Ga67
+Gamma		  93.158, 42.36
+Gamma		 187.056, 23.6
+Gamma		 300.219, 16.8 exp primE primI
+Gamma		 393.529, 4.68 exp
+Gamma		 494.166, 0.07
+Gamma		 794.381, 0.05
+Gamma		 887.688, 0.15 exp
+Compton		 632
+Backscat	 142
+Template	1.00	93 187 300 393  		888
+Template	1.00	   187 300 393 494 		888
+Template	1.00	   187 300 393    	 	888
+Template	1.00	       300 393 494 		888
+Template	1.00	       300 393     		888
+Template	1.00	           393     		888
+Template	1.00	   187 300 393     	632	888
+Template	1.00	       300 393     	632	888
+Template	1.00	           393     	632	888
+Template	0.86	          	     	632	888
+Template 	1.00 	   187 300 393
+Template 	0.93 	   187     393 			888
+#Template 	0.67 	       300
+Template 	0.67 	       300 393
+Template 	0.67 	       300 			888
+Template 	1.00 		   393 494 		888
+Template 	0.67					888
+Template 	1.00 	93 187 300 393
+Template 	0.86 	93     300 393 			888
+Template 	0.79    93 	   393 			888
+#Template	1.00	93 187 300 393 494 		888
+#Template	1.00	93 187 300 393 494 	632	888
+#Template	1.00	   187 300 393 494 	632	888
+#Template	1.00	       300 393 494 	632	888
+#Template 	1.00 	   187 300 393 		    794 888
+#Template 	0.67 	       300 393 		    794 888
+#Template 	0.90               393              794 888
+Class: MED
+Halflife: 3.261 days
+Shielding: PMMA
+Description: Ga67 is a medical isotope used for ...
+# Note: Added 494, 794, and 888 per ARA data in consultation with nudat.  Possible
+# peak shape candidate?
+# TBD description and primaries
+# Possible slight Ga68 (511,1039,2752; HL 9.4hrs) contamination
+
+# Need templates without-187 line to match spectra with Tc99m which overwhelms it.

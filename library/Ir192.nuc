@@ -1,0 +1,48 @@
+Ir192
+Gamma		  66.720, 12.58
+Gamma		 205.794, 3.34
+Gamma		 310.640, 141.48 exp multi
+Gamma		 469.100, 51.01 exp primE primI
+Gamma		 602.820, 18.05 exp multi
+Gamma		 884.5365, 0.31
+Gamma 		1061.48, 0.053
+Gamma		1378.20, 0.0012 
+Backscat	141 # from -310 line
+Backscat	172 # from -469 line
+Backscat	155 # combines backscatter from -310 and  -469
+Backscat 	188 # from -603 line
+Compton		370 # from -603 line
+Template	1.00        	310 469 602 
+Template	1.00    141 	310 469 602
+Template	1.00        	310 469 602 884
+Template	1.00    141 	310 469 602 884
+Template	1.00        	310 469 602 884 1061
+Template	1.00    141 	310 469 602 884 1061
+Template	1.00    141 205 310 469 602 884 1061
+Template	1.00        205 310 469 602 884 1061
+Template	1.00	    	    469 602
+Template	1.00	141 	    469 602
+Template	1.00	        	602 884 1061
+Template	1.00		    469 602 884 1061
+Template	1.00		310 469 602 884 1061 1378
+Template	1.00		    469 602 884 1061 1378	
+Template	1.00		        602 884 1061 1378
+Template 	0.00 	    206 310
+Template 	1.00 	    206 310 469 602
+Template 	1.00 	    206 310 469 602 885 1061 1378
+Template 	0.95 		310 469
+Template 	1.00 		310 469 602
+Template 	1.00 		310 469 602 	1061
+Template 	1.00 		310 469 602 884
+Template 	1.00 		310 469 602 884 1061
+Template 	1.00 		310 	602 884 1061 1378
+Template 	0.80 		    469
+Template 	1.00 		    469 602 884
+Template 	0.74 		    469     884
+#Template 	0.68			602
+Template 	0.90			602 884	
+Class: IND
+Halflife: 73.831 days
+Shielding: Stl05
+Description: Ir192 is an industrial isotope most frequently used for ...
+# TBD primaries

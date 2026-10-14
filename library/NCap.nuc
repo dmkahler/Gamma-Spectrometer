@@ -1,0 +1,29 @@
+NCap
+Gamma		477.595, 1.00 exp primE primI # boron
+Gamma		511, 0.091	# annih
+Gamma		847, 0.02  exp	# iron
+Gamma		1262, 0.02	# Carbon	
+Gamma		1715, 0.094 # Singe escape from H1 line
+Gamma		2223, 1.0 exp primE primI # Hydrogen
+Compton		1917 	# from h1 line
+Template	0.89	478 				2223
+Template	0.85	    				2223
+Template	1.00	   511 				2223
+Template	1.00	  	 847			2223
+Template	1.00	   		1262		2223
+Template	1.00				1715	2223
+Template	1.00	   511			1715	2223
+Template	1.00		 847		1715	2223
+Template	0.80	478
+Template	0.72		 847	
+Template	1.00	478 				2223	Neut
+Template	1.00	478					Neut	
+Template	1.00		 847				Neut
+Template	1.00	    				2223	Neut
+Template	0.88		 847				Neut
+Class: SNM
+Halflife: 1e-6 seconds
+Confounds: 
+Prefer:	
+Shielding: 
+Description: Neutron capture on boron or hydrogen suggests the presence of neutrons, even if neutrons not detected directly.

@@ -1,0 +1,36 @@
+Pu238
+XRay		13.600,  10.20000 exp primE primI
+Gamma		43.498,	 395  exp
+Gamma		99.853,	 73.5 exp
+Gamma		200.97,	 0.06 
+Gamma		152.72,	 9.37 exp
+Gamma		766.39,	 0.22 exp
+Gamma		1001.03, 0.001
+Compton		530	# from-766 line 	
+Template	0.80	14
+Template	1.00	43	100	153		766
+Template	1.00	43	100	153	
+Template	0.67		100	153
+Template	0.95		100	153		766
+Template	0.85		100	153		766	1001
+Template	0.85	43	100	153		766	1001
+Template	0.67			153		766
+Template	0.85			153		766	1001
+Template	0.67					766	1001
+Template	0.67					766
+Template	1.00   	43				766
+Template	1.00	43		   	201	766
+Template	1.00			   	201	766	1001
+Template	0.66			   	201	766
+Template	1.00			153	201	766	1001
+Template	1.00			153	201	766
+Template	0.85		100			766	1001
+Template	0.80		100			766
+Template	0.89		100		201	766
+Template	1.00		100	153	201	766	1001		
+Class: SNM
+Halflife: 87.74 years
+Confounds: 
+Prefer: 
+Shielding: 
+Description: Pu238 is produced by neutron capture on Np237 in fusion reaction.  It has been used for thermoelectric generators.

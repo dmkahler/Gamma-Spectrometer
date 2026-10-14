@@ -1,0 +1,19 @@
+Xe135
+XRay		31.630,	49.7 multi
+Gamma		249.77, 100 exp
+Gamma		358.38, 0.6
+Gamma		387, 	1.1 # conv of -408 and -358 lines
+Gamma		408.01, 0.6
+Gamma		608.15, 1.8 exp
+Compton		120 	# from -250 line, overlaps backscatter as well
+Backscat	180 	# from -608 line
+Template	1.00	32 250 358 408 608
+Template	1.00	32 250   387   608
+Template	0.95	   250 358 408 608
+Template	0.95	   250  387    608
+Template	0.80	   250	       608
+Class: IND	
+Halflife: 9.1 hours
+Shielding: PMMA76
+Description: 
+# TBD

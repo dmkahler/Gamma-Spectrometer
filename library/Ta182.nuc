@@ -1,0 +1,20 @@
+Ta182
+Gamma		62,     100	multi
+Gamma		100.11, 7.4
+Gamma		152.43, 5.3
+Gamma		179.39, 0.1
+Gamma		223, 	6.1     multi
+Gamma 		264.07, 2.0	
+Gamma		1121.3, 3.3
+Gamma		1219,  11.0 exp multi
+Compton		849 # from -1121 and -1219 lines
+Template	1.00	62 100 152 179 223 264 1121 1219
+Template	0.99	62 100 152     223     1121 1219
+Template	0.80	62		       1121 1219
+Template	0.70			       1121 1219 
+Class: IND
+Halflife: 115 days
+Confounds: 
+Prefer:	<list of isotopes that should be preferred if all else equal>
+Shielding: Stl05
+Description: 

@@ -1,0 +1,19 @@
+Tl201
+Gamma		  72.320, 95.9
+Gamma		 135.340, 2.8
+Gamma		 167.430, 10.6 exp primE primI
+Gamma		 439.51, 91.5 exp C(Tl202)
+Backscat	101
+Template	1.00	72 135 167 439
+Template	0.67	72     167 439
+Template	0.67	       167 439
+Template	0.70	72 135 167
+Template	1.00	   135 167 439
+Template	0.67	   135 167
+Template	0.67	101    167
+Template	0.87	101    167 439
+Class: MED
+Halflife: 72.912 hours
+Shielding: PMMA76
+Description: Tl201 is a medical isotope.  It is primarily used for cardiac stress testing.  Often appears with Tl202 contaminant because it is reactor-produced.
+# We hypothesize that, empirically, it is MORE likely to be Tl201 if the 439 line is found, than if it is absent.

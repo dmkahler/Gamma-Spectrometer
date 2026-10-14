@@ -1,0 +1,64 @@
+U233
+Xray		75, 	19.67		C(Pb212)		# Bi		
+Gamma		238.63, 48.68		C(Pb212)
+Gamma		510.77,	9.133		C(Tl208)
+Gamma		583.19, 34.12		C(Tl208)
+Gamma		727.33, 7.396		C(Bi212)
+Gamma		860.56, 5.017		C(Tl208)
+Gamma		1078.62,0.6337		C(Bi212)
+Gamma		1611,	10		multi C(Tl208)	# Double Escape and-1620 Bi212
+Gamma		2109,	20		C(Tl208)	# Single Escape
+Gamma		2614.45, 40.05		exp C(Tl208)
+
+Gamma		42.44, 	8.88 		multi
+Xray 		88,	7.34 		multi
+Gamma		97.082,	4.45		multi
+Gamma		143.74, 0.89		multi
+Gamma 		164.52, 0.48		
+Gamma		218, 	1.14		multi D(Fr221)
+Gamma		309.78 	1.33 		multi 
+Gamma		440.46, 1.91		exp D(Bi213)
+Gamma		807.36, 0.02		D(Bi213)
+Gamma		1100.16, 0.03		D(Bi213)
+Gamma		1567.09, 0.15		D(Tl209)
+Compton		1251		# from -1567 line
+Compton	 	2326		# from -2614 line
+Backscat	186		# from -583 line
+# U233 only 	
+Template	1.00	42	88	97	218	309	440
+Template	0.82		88				440
+Template	1.00					309	440
+Template	1.00				218	309	440					1567
+Template	1.00				218		440					1567
+Template	0.91						440					1567
+Template	1.00					309	440					1567
+# U232 only
+Template 	1.00 				238 			511 	583 	727 	860 		1611 	2109    2614
+Template 	0.90		  		238 			511 					1611 	2109 	2614
+Template 	1.00 				238 			511 	583 	727 	860 		1611 	2109 	2614
+Template 	1.00 				238 			511 	583 	727 	860 			 	2614
+Template 	1.00 				238 			511 	583 	727 	860 		 	2109 	2614
+Template 	1.00 							511 	583 	727 	860 	1078	 	2109 	2614
+Template 	1.00 				  			511 	583 	727 	860 	1078 	1611 	2109 	2614
+Template 	1.00 	75 			238 			511 	583 	727 	860 	1078 	1611 	2109 	2614
+Template 	0.89 	75 						511 		727 			1611 	2109 	2614
+Template 	1.00 	75 			238  			511 	583 	727 	860 	1078 	1611 	2109 	2614
+Template 	0.74 	75 			238 			511 	583 	727 	860 	1078 	1611	2109 	2614
+Template 	0.74 	75 						511 					1611 	2109 	2614
+Template 	1.00 	75 						511 	583 	727 	860 	1078 	1611 	2109 	2614
+Template 	1.00 	75 						511 	583 	727 	860 	1078 	1611 	2109 	2614
+Template	1.00				238			511			860			2109	2614
+Template	0.90							511	583	727			1611	2109	2614		
+Template	0.90    75			238	 			583	727			1611		2614
+Template	0.90   	75			238	 			583	727					2614
+Template	0.90	75			238			511	583				1611		2614
+# U232 and U233	
+Template	1.00					309	440	511	583	727	860		1611	2109	2614
+Template	1.00			238		309	440	511	583	727	860		1611	2109	2614
+Template	1.00			238		309	440	511	583				1611	2109	2614
+Template	1.00			238		309	440						1611		2614	
+Template 	1.00			238			440	511	583	727	860		1611	2109	2614
+Template	1.00			218			440		583				1611	2109	2614	
+Template	1.00		97	218			440		583						2614
+Template	1.00						440		583						2614		
+Class: SNM					

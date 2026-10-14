@@ -1,0 +1,16 @@
+K40
+Gamma		511, 0.1	# annihilation line?
+Gamma		949.87, 0.1	# single escape peak
+Gamma		1460.87, 10.67 exp primE primI
+Backscat	231
+Compton		1190
+Template	0.88  	 511	949		1460
+Template	0.70 			1190	1460
+Template 	0.76 				1460	
+Class: NRM
+Halflife: 1.277e+09 years
+Confounds: 
+Prefer:	<list of isotopes that should be preferred if all else equal>
+Shielding: Stl05 Stl30
+Description: K40 is a naturally occurring isotope of potassium.  It is frequently found where there are concentrations of cement (including in building walls) as well as certain other common shipments such as salt substitutes and bananas.
+# Stl30 shielding not required but should work okay

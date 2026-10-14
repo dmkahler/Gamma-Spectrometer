@@ -1,0 +1,11 @@
+Sc46
+Gamma		889.29, 	99 primE primI exp
+Gamma		1120.55,	82 
+Compton		634 # from -889 line
+Backscat	219 # from averaged contibutions of -889 and -1120
+Template	1.00 889 1121
+Class: MED	
+Halflife: 83.8 days
+Shielding: PMMA76
+Description:  
+# TBD
