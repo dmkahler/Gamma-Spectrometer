@@ -8,7 +8,7 @@
       <InstrumentVersion>FW=3.10.3.5 UC=00.01.02 HDL=0b.0e SYS=5085010-Rev-1 MAIN=110454-Rev-8 PWR=111077-Rev-3</InstrumentVersion>
       <InstrumentID>Serial 11626   </InstrumentID>
       <ProbeType>Serial 10354, Type NaI2x2</ProbeType>
-      <InstrumentMode>Calibrate</InstrumentMode>
+      <InstrumentMode>Measure</InstrumentMode>
       <PGT:InstrumentConfig>
 DET_SERNO = 10354
 CTRT_LIN_SLOPE = 1.50713e-07
@@ -20,7 +20,7 @@ RESET_BIAS = 550
 RESET_GAIN = 10000e-4
 BIASSET = 380
 AMPCGAIN = 1
-AMPFGAIN = 11562e-4
+AMPFGAIN = 14335e-4
 DMEASTC = 1280e-9
 DMEASAPER = 320e-9
 ADCZLD = 4e-1
@@ -128,10 +128,10 @@ EFFCAL = det2x2m
 LOCALE = en
 REMLOG_MODE = 0
 TIMEZONE = EST
-STAB_TEMP_LAST = 326e-1
-STAB_FG_LAST = 11425e-4
+STAB_TEMP_LAST = 293e-1
+STAB_FG_LAST = 14140e-4
 INTEGRATOR_BASELINE = 1
-BACKGROUND_IDX = 132
+BACKGROUND_IDX = 137
 STAB_TEMP_REF = 362e-1
 STAB_FG_REF = 1.0488
 DOSE_CAL_ACT = 12.7
@@ -147,47 +147,67 @@ ACC_DATA_ERASE[1] = 1
 BACKGND_AGE_SECS = 604800
       </PGT:InstrumentConfig>
     </InstrumentInformation>
-    <Spectrum Type="PHA" CalibrationIDs="en qcc res">
-      <StartTime>2026-09-24T16:05:41Z</StartTime>
-      <RealTime>PT60.033S</RealTime>
-      <LiveTime>PT60.000S</LiveTime>
-      <SourceType>Background</SourceType>
+    <Spectrum Type="PHA" CalibrationIDs="en qcc res" BackgroundSpectrumID="spec0137">
+      <StartTime>2026-10-21T15:58:56Z</StartTime>
+      <RealTime>PT86487.885S</RealTime>
+      <LiveTime>PT86400.000S</LiveTime>
+      <SourceType>Item</SourceType>
       <ChannelData>
-           0   0   0   0   0   0   0   0   0   4  11   6  10  18  12  16
-          13  18  15  10  13  28  24  20  29  27  22  30  36  46  44  43
-          54  61  60  56  61  65  64  64  65  83  98  76  79  96  76  79
-          87  99  78  79  87  95  87  80  96 102  84  83  78  85  83  53
-          70  64  70  66  68  50  58  71  68  54  62  53  47  46  59  65
-          69  57  62  54  54  50  42  51  51  59  54  47  54  57  44  34
-          56  26  36  49  37  31  44  32  32  26  35  34  34  58  78 125
-         185 157 105  68  38  10   8   3   6   7   7   4   8   2  13  10
-           5  12   6   6   5  10   2  11   2   6   6   4   3   4  11   8
-           1   5   4   5   6  10  13   9   4  10   6   4   2   5   5   2
-           4   7   7  10   2   5   2   1   8   2   7   8   6   2   1   4
-           0   0   1   1   1   1   0   2   1   1   0   2   3   2   0   0
-           6   0   2   0   1   2   1   0   0   0   1   3   1   1   2   2
-           0   0   0   0   1   0   0   0   1   1   0   0   0   0   1   2
-           1   0   0   0   1   1   2   1   2   1   0   1   0   0   0   0
-           0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   0
+              0      0      0      0      0      0      0      0
+              0 108519 138361  58071  29451  16882  16337  14488
+          19318  18240  21403  22172  21974  23471  22732  22572
+          24533  24990  25533  28382  29156  30979  34917  34699
+          42120  45334  45512  55847  55540  62927  65864  68238
+          75808  78279  85944  82923  89724  96826  93677 105489
+         100360 105198  99424 109164 108066 101179 104574 108575
+         107422 106255 110459 104838 113756 109236 115293 113811
+         116151 112394 107634 102838 103880  99564  96421  96872
+          93742  90785  90810  87336  85075  82084  86024  80048
+          78593  79844  77934  78934  76721  75710  74491  75663
+          74888  76192  72717  73537  74004  70095  71422  70368
+          71418  70913  71717  68397  68884  67116  65790  62768
+          58622  56198  51254  51017  49075  48857  47990  46698
+          45798  45367  43330  44016  43520  43074  43863  43411
+          44735  49892  62862  90344 133259 185545 221852 204435
+         157215  94243  45032  21907  13566  11172  10952  10733
+          10859  10388  10729  10401  10285  10192   9950  10081
+          10059  10116   9851  10081  10378  10517  10153  10253
+           9590   9568   9176   8941   8356   8422   7950   7671
+           7740   7501   7545   7514   7543   7718   8070   8648
+           9949  11440  12755  12389  10801   8481   6535   5250
+           4635   4341   4491   5408   6906   8523   9261   8741
+           7272   5436   4565   4285   5216   6550   8272   9120
+           8243   6100   4313   2855   2154   1929   1847   1884
+           1737   1733   1582   1513   1428   1398   1499   1568
+           1714   1942   2023   2046   1873   1607   1428   1166
+           1244   1109   1087   1040    951    922    896    923
+            856    867    840    867    930   1037   1104   1258
+           1231   1180   1071   1099   1072   1131   1052    914
+            868    807    786    736    686    634    580    525
+            495    454    424    412    363    367    465    209
       </ChannelData>
-      <PGT:SpecType>1</PGT:SpecType>
+      <PGT:SpecType>8</PGT:SpecType>
       <PGT:Bias>380</PGT:Bias>
       <PGT:ADCTransform>1</PGT:ADCTransform>
       <PGT:CoarseGain>1</PGT:CoarseGain>
-      <PGT:FineGain>1.1562</PGT:FineGain>
+      <PGT:FineGain>1.4335</PGT:FineGain>
       <PGT:GroupSize>256</PGT:GroupSize>
       <PGT:LLD>0.80</PGT:LLD>
       <PGT:ULD>100.00</PGT:ULD>
       <PGT:Zero>+0.1410</PGT:Zero>
-      <PGT:CalTemp>17.81</PGT:CalTemp>
+      <PGT:CalTemp>24.58</PGT:CalTemp>
     </Spectrum>
     <CountDoseData Detector="gamma">
-      <SampleRealTime>PT60.033S</SampleRealTime>
-      <SampleLiveTime>PT60.000S</SampleLiveTime>
-      <CountRate Units="CPS">108.067</CountRate>
-      <Counts>6484</Counts>
-      <DoseRate Units="uSv">0</DoseRate>
+      <SampleRealTime>PT86487.885S</SampleRealTime>
+      <SampleLiveTime>PT86400.000S</SampleLiveTime>
+      <CountRate Units="CPS">111.347</CountRate>
+      <Counts>9620392</Counts>
+      <DoseRate Units="uSv">0.114305</DoseRate>
     </CountDoseData>
+    <AnalysisResults>
+      <NuclideAnalysis ActivityUnits="uCi">
+      </NuclideAnalysis>
+    </AnalysisResults>
   </Measurement>
   <Calibration Type="Energy" ID="en" EnergyUnits="keV">
     <Remark>FSE=3072 GrpSz=256</Remark>
