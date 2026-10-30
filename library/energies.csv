@@ -1,0 +1,342 @@
+Ag108m,433.94
+Ag108m,614.28
+Ag108m,722.91
+Ag108m,1120.55
+Ag110m,446.81
+Ag110m,657.76
+Ag110m,764.94
+Ag110m,884.68
+Ag110m,937.49
+Ag110m,1384.3
+Ag110m,1505.04
+Am241,26.345
+Am241,48.65
+Am241,59.537
+Am241,101.98
+Am241s,124.85
+Am241s,146.55
+Am241s,208.01
+Am241s,335.37
+Am241s,661.46
+Am241s,722.01
+AmBe,26.345
+AmBe,48.65
+AmBe,59.537
+AmBe,101.98
+AmBe,124.85
+AmBe,146.55
+AmBe,208.01
+AmBe,335.37
+AmBe,371.65
+AmBe,661.46
+AmBe,722.01
+Ba133,31.6
+Ba133,80.9
+Ba133,160.61
+Ba133,295.42
+Ba133,360
+Cd109,22.59
+Cd109,88.034
+Cf252,502
+Cf252,855
+Cf252,1881
+"c(""Co56"", ""Gamma \t\t511,\t 6.2    exp"")",511
+"c(""Co56"", ""Gamma \t\t511,\t 6.2    exp"")",846.77
+"c(""Co56"", ""Gamma \t\t511,\t 6.2    exp"")",1037.84
+"c(""Co56"", ""Gamma \t\t511,\t 6.2    exp"")",1238.28
+"c(""Co56"", ""Gamma \t\t511,\t 6.2    exp"")",1360.21
+"c(""Co56"", ""Gamma \t\t511,\t 6.2    exp"")",1771.35
+"c(""Co56"", ""Gamma \t\t511,\t 6.2    exp"")",2034
+"c(""Co56"", ""Gamma \t\t511,\t 6.2    exp"")",2598.46
+"c(""Co56"", ""Gamma \t\t511,\t 6.2    exp"")",2742
+Co57,123.66
+Co57,348.608
+Co57,570.09
+Co57,692.41
+"c(""Co58"", ""Gamma \t\t511,\t 53    exp"")",511
+"c(""Co58"", ""Gamma \t\t511,\t 53    exp"")",810.77
+"c(""Co58"", ""Gamma \t\t511,\t 53    exp"")",1674.73
+Co60,511
+Co60,1173.237
+Co60,1332.501
+Co60,2229
+Co60,2505.74
+"c(""Cs134"", ""XRay\t\t32.876,   0.82"")",475.365
+"c(""Cs134"", ""XRay\t\t32.876,   0.82"")",597.386
+"c(""Cs134"", ""XRay\t\t32.876,   0.82"")",796.422
+"c(""Cs134"", ""XRay\t\t32.876,   0.82"")",1038.61
+"c(""Cs134"", ""XRay\t\t32.876,   0.82"")",1167.968
+"c(""Cs134"", ""XRay\t\t32.876,   0.82"")",1365.185
+Eu152,41.007
+Eu152,82.014
+Eu152,121.783
+Eu152,162.79
+Eu152,244.699
+Eu152,344.281
+Eu152,411.115
+Eu152,443.976
+Eu152,569.054
+Eu152,778.903
+Eu152,867.388
+Eu152,964.131
+Eu152,1101.04
+Eu152,1408.011
+F18,511
+F18,1022
+Fe57m,136.5
+Fe57m,352.4
+Fe57m,692
+Fe57m,898.3
+Fe57m,1019
+Fe57m,1260.6
+Fe57m,1612.8
+Fe57m,1725.3
+Ga67,93.158
+Ga67,187.056
+Ga67,300.219
+Ga67,393.529
+Ga67,494.166
+Ga67,794.381
+Ga67,887.688
+I123,28.04
+I123,158.97
+I123,247.96
+I123,281.03
+I123,346.35
+I123,440.02
+I123,528.96
+I123,624.57
+I123,735.78
+I131,30.4
+I131,80.183
+I131,284.298
+I131,364.48
+I131,503.004
+I131,636.973
+I131,722.911
+In111,23.65
+In111,171.28
+In111,245.35
+Ir192,66.72
+Ir192,205.794
+Ir192,310.64
+Ir192,469.1
+Ir192,602.82
+Ir192,884.5365
+Ir192,1061.48
+Ir192,1378.2
+K40,511
+K40,949.87
+K40,1460.87
+"c(""La138"", ""XRay\t\t32.862, 36.59"")",788.742
+"c(""La138"", ""XRay\t\t32.862, 36.59"")",924.795
+"c(""La138"", ""XRay\t\t32.862, 36.59"")",1435.795
+"c(""Lu176"", ""XRay            56.133, 32.98"", ""Gamma           88.34, 14.50"", ""Gamma           201.83, 78.00 exp"", ""Gamma           306.78, 93.60 exp primE primI # Actually-306.78 but trying to push away from Np237 line"", ""Gamma           400.99, 0.37 # Actually 400.99 but trying to push away from Np237 line"", ""Gamma           508.61, 0.0 coinc"", ""Backscat\t145 # from -306 line"", ""Backscat\t116 # from -202 line"", ""Template        1.00    56 88 202 306     509"", ""Template        1.00    56 88 202 306"", 
+""Template        1.00       88 202 306     509"", ""Template        1.00       88 202 306"", ""Template        1.00          202 306     509"", ""Template        0.91          202 306"", ""Template        1.00    56 88 202 306 401 509"", ""Template        1.00   \t   88 202 306 401 "", ""Template        1.00   \t      202 306 401 "", ""Template        1.00    56 88 202 306"", ""Template        1.00       88 202 306 401 509"", ""Template        1.00          202 306 401 509"", ""Template        0.89          202 306"", 
+""Template\t0.75\t\t  306"", ""Template\t0.82\t          306 401"", ""Template \t0.70\t\t      401"", ""Class: NRM"", ""Halflife: 3.76e10 years"", ""Confounds: tbd"", ""Description: Lu176 is a naturally occurring isotope which may be used for energy calibration."")",88.34
+"c(""Lu176"", ""XRay            56.133, 32.98"", ""Gamma           88.34, 14.50"", ""Gamma           201.83, 78.00 exp"", ""Gamma           306.78, 93.60 exp primE primI # Actually-306.78 but trying to push away from Np237 line"", ""Gamma           400.99, 0.37 # Actually 400.99 but trying to push away from Np237 line"", ""Gamma           508.61, 0.0 coinc"", ""Backscat\t145 # from -306 line"", ""Backscat\t116 # from -202 line"", ""Template        1.00    56 88 202 306     509"", ""Template        1.00    56 88 202 306"", 
+""Template        1.00       88 202 306     509"", ""Template        1.00       88 202 306"", ""Template        1.00          202 306     509"", ""Template        0.91          202 306"", ""Template        1.00    56 88 202 306 401 509"", ""Template        1.00   \t   88 202 306 401 "", ""Template        1.00   \t      202 306 401 "", ""Template        1.00    56 88 202 306"", ""Template        1.00       88 202 306 401 509"", ""Template        1.00          202 306 401 509"", ""Template        0.89          202 306"", 
+""Template\t0.75\t\t  306"", ""Template\t0.82\t          306 401"", ""Template \t0.70\t\t      401"", ""Class: NRM"", ""Halflife: 3.76e10 years"", ""Confounds: tbd"", ""Description: Lu176 is a naturally occurring isotope which may be used for energy calibration."")",201.83
+"c(""Lu176"", ""XRay            56.133, 32.98"", ""Gamma           88.34, 14.50"", ""Gamma           201.83, 78.00 exp"", ""Gamma           306.78, 93.60 exp primE primI # Actually-306.78 but trying to push away from Np237 line"", ""Gamma           400.99, 0.37 # Actually 400.99 but trying to push away from Np237 line"", ""Gamma           508.61, 0.0 coinc"", ""Backscat\t145 # from -306 line"", ""Backscat\t116 # from -202 line"", ""Template        1.00    56 88 202 306     509"", ""Template        1.00    56 88 202 306"", 
+""Template        1.00       88 202 306     509"", ""Template        1.00       88 202 306"", ""Template        1.00          202 306     509"", ""Template        0.91          202 306"", ""Template        1.00    56 88 202 306 401 509"", ""Template        1.00   \t   88 202 306 401 "", ""Template        1.00   \t      202 306 401 "", ""Template        1.00    56 88 202 306"", ""Template        1.00       88 202 306 401 509"", ""Template        1.00          202 306 401 509"", ""Template        0.89          202 306"", 
+""Template\t0.75\t\t  306"", ""Template\t0.82\t          306 401"", ""Template \t0.70\t\t      401"", ""Class: NRM"", ""Halflife: 3.76e10 years"", ""Confounds: tbd"", ""Description: Lu176 is a naturally occurring isotope which may be used for energy calibration."")",306.78
+"c(""Lu176"", ""XRay            56.133, 32.98"", ""Gamma           88.34, 14.50"", ""Gamma           201.83, 78.00 exp"", ""Gamma           306.78, 93.60 exp primE primI # Actually-306.78 but trying to push away from Np237 line"", ""Gamma           400.99, 0.37 # Actually 400.99 but trying to push away from Np237 line"", ""Gamma           508.61, 0.0 coinc"", ""Backscat\t145 # from -306 line"", ""Backscat\t116 # from -202 line"", ""Template        1.00    56 88 202 306     509"", ""Template        1.00    56 88 202 306"", 
+""Template        1.00       88 202 306     509"", ""Template        1.00       88 202 306"", ""Template        1.00          202 306     509"", ""Template        0.91          202 306"", ""Template        1.00    56 88 202 306 401 509"", ""Template        1.00   \t   88 202 306 401 "", ""Template        1.00   \t      202 306 401 "", ""Template        1.00    56 88 202 306"", ""Template        1.00       88 202 306 401 509"", ""Template        1.00          202 306 401 509"", ""Template        0.89          202 306"", 
+""Template\t0.75\t\t  306"", ""Template\t0.82\t          306 401"", ""Template \t0.70\t\t      401"", ""Class: NRM"", ""Halflife: 3.76e10 years"", ""Confounds: tbd"", ""Description: Lu176 is a naturally occurring isotope which may be used for energy calibration."")",400.99
+"c(""Lu176"", ""XRay            56.133, 32.98"", ""Gamma           88.34, 14.50"", ""Gamma           201.83, 78.00 exp"", ""Gamma           306.78, 93.60 exp primE primI # Actually-306.78 but trying to push away from Np237 line"", ""Gamma           400.99, 0.37 # Actually 400.99 but trying to push away from Np237 line"", ""Gamma           508.61, 0.0 coinc"", ""Backscat\t145 # from -306 line"", ""Backscat\t116 # from -202 line"", ""Template        1.00    56 88 202 306     509"", ""Template        1.00    56 88 202 306"", 
+""Template        1.00       88 202 306     509"", ""Template        1.00       88 202 306"", ""Template        1.00          202 306     509"", ""Template        0.91          202 306"", ""Template        1.00    56 88 202 306 401 509"", ""Template        1.00   \t   88 202 306 401 "", ""Template        1.00   \t      202 306 401 "", ""Template        1.00    56 88 202 306"", ""Template        1.00       88 202 306 401 509"", ""Template        1.00          202 306 401 509"", ""Template        0.89          202 306"", 
+""Template\t0.75\t\t  306"", ""Template\t0.82\t          306 401"", ""Template \t0.70\t\t      401"", ""Class: NRM"", ""Halflife: 3.76e10 years"", ""Confounds: tbd"", ""Description: Lu176 is a naturally occurring isotope which may be used for energy calibration."")",508.61
+"c(""Lu177"", ""XRay            65,\t\t5.36 "", ""Gamma           112.95, 6.4 "", ""Gamma           208.37, 11  exp "", ""Gamma           321.32, 0.2 "", ""Gamma           400, \t0.4 multi "", ""Template        1.00    65 113 208 321 400"", ""Template\t\t0.95\t65 113 208 321 "", ""Template \t\t0.90    65 113 208"", ""Template\t\t0.80\t   113 208"", ""Class: IND"", ""Halflife: 160.88 days #Lu177m"", ""Confounds: tbd"", ""Description: The metastable state has a longer halflife than the ground state. Expect these to be in equilibrium.""
+)",112.95
+"c(""Lu177"", ""XRay            65,\t\t5.36 "", ""Gamma           112.95, 6.4 "", ""Gamma           208.37, 11  exp "", ""Gamma           321.32, 0.2 "", ""Gamma           400, \t0.4 multi "", ""Template        1.00    65 113 208 321 400"", ""Template\t\t0.95\t65 113 208 321 "", ""Template \t\t0.90    65 113 208"", ""Template\t\t0.80\t   113 208"", ""Class: IND"", ""Halflife: 160.88 days #Lu177m"", ""Confounds: tbd"", ""Description: The metastable state has a longer halflife than the ground state. Expect these to be in equilibrium.""
+)",208.37
+"c(""Lu177"", ""XRay            65,\t\t5.36 "", ""Gamma           112.95, 6.4 "", ""Gamma           208.37, 11  exp "", ""Gamma           321.32, 0.2 "", ""Gamma           400, \t0.4 multi "", ""Template        1.00    65 113 208 321 400"", ""Template\t\t0.95\t65 113 208 321 "", ""Template \t\t0.90    65 113 208"", ""Template\t\t0.80\t   113 208"", ""Class: IND"", ""Halflife: 160.88 days #Lu177m"", ""Confounds: tbd"", ""Description: The metastable state has a longer halflife than the ground state. Expect these to be in equilibrium.""
+)",321.32
+"c(""Lu177"", ""XRay            65,\t\t5.36 "", ""Gamma           112.95, 6.4 "", ""Gamma           208.37, 11  exp "", ""Gamma           321.32, 0.2 "", ""Gamma           400, \t0.4 multi "", ""Template        1.00    65 113 208 321 400"", ""Template\t\t0.95\t65 113 208 321 "", ""Template \t\t0.90    65 113 208"", ""Template\t\t0.80\t   113 208"", ""Class: IND"", ""Halflife: 160.88 days #Lu177m"", ""Confounds: tbd"", ""Description: The metastable state has a longer halflife than the ground state. Expect these to be in equilibrium.""
+)",400
+Mo99,18.33
+Mo99,40.585
+Mo99,181.063
+Mo99,366.421
+Mo99,749.7
+Mo99,960.754
+Na22,511
+Na22,1022
+Na22,763.53
+Na22,1274.53
+Na22,1785
+NCap,477.595
+NCap,511
+NCap,847
+NCap,1262
+NCap,1715
+NCap,2223
+Np237,88.7
+Np237,141.1
+Np237,312.9
+Np237,408.1
+Np237,588
+Np237,888
+"c(""Pd103"", ""#"")",357.45
+"c(""Pd103"", ""#"")",497.08
+"c(""Pu238"", ""XRay\t\t13.600,  10.20000 exp primE primI"")",43.498
+"c(""Pu238"", ""XRay\t\t13.600,  10.20000 exp primE primI"")",99.853
+"c(""Pu238"", ""XRay\t\t13.600,  10.20000 exp primE primI"")",200.97
+"c(""Pu238"", ""XRay\t\t13.600,  10.20000 exp primE primI"")",152.72
+"c(""Pu238"", ""XRay\t\t13.600,  10.20000 exp primE primI"")",766.39
+"c(""Pu238"", ""XRay\t\t13.600,  10.20000 exp primE primI"")",1001.03
+"c(""Pu239"", ""Xray\t\t  94,     360\t# conv of several"")",51.624
+"c(""Pu239"", ""Xray\t\t  94,     360\t# conv of several"")",129.296
+"c(""Pu239"", ""Xray\t\t  94,     360\t# conv of several"")",203.55
+"c(""Pu239"", ""Xray\t\t  94,     360\t# conv of several"")",333.449
+"c(""Pu239"", ""Xray\t\t  94,     360\t# conv of several"")",375.054
+"c(""Pu239"", ""Xray\t\t  94,     360\t# conv of several"")",394
+"c(""Pu239"", ""Xray\t\t  94,     360\t# conv of several"")",413.715
+"c(""Pu239"", ""Xray\t\t  94,     360\t# conv of several"")",645.94
+"c(""Pu239"", ""Xray\t\t  94,     360\t# conv of several"")",769.15
+Pu240,45.244
+Pu240,104.234
+Pu240,160.308
+Pu240,642.35
+Pu240,873.92
+Pu240,967
+Pu241,26.345
+Pu241,48.65
+Pu241,59.537
+Pu241,101.98
+Pu241,124.85
+Pu241,146.55
+Pu241,208.01
+Pu241,335.37
+Pu241,394
+Pu241,661.46
+Pu241,722.01
+"c(""Ra226"", ""XRay\t\t  48.000, 0.3\t# D, low level can lead to FP if not included"", ""XRay\t\t  77.000, 5.0"", ""XRay\t\t  96.7,\t  5.0"", ""#"")",186
+"c(""Ra226"", ""XRay\t\t  48.000, 0.3\t# D, low level can lead to FP if not included"", ""XRay\t\t  77.000, 5.0"", ""XRay\t\t  96.7,\t  5.0"", ""#"")",242
+"c(""Ra226"", ""XRay\t\t  48.000, 0.3\t# D, low level can lead to FP if not included"", ""XRay\t\t  77.000, 5.0"", ""XRay\t\t  96.7,\t  5.0"", ""#"")",295
+"c(""Ra226"", ""XRay\t\t  48.000, 0.3\t# D, low level can lead to FP if not included"", ""XRay\t\t  77.000, 5.0"", ""XRay\t\t  96.7,\t  5.0"", ""#"")",352
+"c(""Ra226"", ""XRay\t\t  48.000, 0.3\t# D, low level can lead to FP if not included"", ""XRay\t\t  77.000, 5.0"", ""XRay\t\t  96.7,\t  5.0"", ""#"")",480
+"c(""Ra226"", ""XRay\t\t  48.000, 0.3\t# D, low level can lead to FP if not included"", ""XRay\t\t  77.000, 5.0"", ""XRay\t\t  96.7,\t  5.0"", ""#"")",609
+"c(""Ra226"", ""XRay\t\t  48.000, 0.3\t# D, low level can lead to FP if not included"", ""XRay\t\t  77.000, 5.0"", ""XRay\t\t  96.7,\t  5.0"", ""#"")",770
+"c(""Ra226"", ""XRay\t\t  48.000, 0.3\t# D, low level can lead to FP if not included"", ""XRay\t\t  77.000, 5.0"", ""XRay\t\t  96.7,\t  5.0"", ""#"")",938
+"c(""Ra226"", ""XRay\t\t  48.000, 0.3\t# D, low level can lead to FP if not included"", ""XRay\t\t  77.000, 5.0"", ""XRay\t\t  96.7,\t  5.0"", ""#"")",1120
+"c(""Ra226"", ""XRay\t\t  48.000, 0.3\t# D, low level can lead to FP if not included"", ""XRay\t\t  77.000, 5.0"", ""XRay\t\t  96.7,\t  5.0"", ""#"")",1258
+"c(""Ra226"", ""XRay\t\t  48.000, 0.3\t# D, low level can lead to FP if not included"", ""XRay\t\t  77.000, 5.0"", ""XRay\t\t  96.7,\t  5.0"", ""#"")",1402
+"c(""Ra226"", ""XRay\t\t  48.000, 0.3\t# D, low level can lead to FP if not included"", ""XRay\t\t  77.000, 5.0"", ""XRay\t\t  96.7,\t  5.0"", ""#"")",1531
+"c(""Ra226"", ""XRay\t\t  48.000, 0.3\t# D, low level can lead to FP if not included"", ""XRay\t\t  77.000, 5.0"", ""XRay\t\t  96.7,\t  5.0"", ""#"")",1768
+"c(""Ra226"", ""XRay\t\t  48.000, 0.3\t# D, low level can lead to FP if not included"", ""XRay\t\t  77.000, 5.0"", ""XRay\t\t  96.7,\t  5.0"", ""#"")",2197
+"c(""Ra226"", ""XRay\t\t  48.000, 0.3\t# D, low level can lead to FP if not included"", ""XRay\t\t  77.000, 5.0"", ""XRay\t\t  96.7,\t  5.0"", ""#"")",2447
+"c(""Ra226"", ""XRay\t\t  48.000, 0.3\t# D, low level can lead to FP if not included"", ""XRay\t\t  77.000, 5.0"", ""XRay\t\t  96.7,\t  5.0"", ""#"")",2719
+"c(""Ra226"", ""XRay\t\t  48.000, 0.3\t# D, low level can lead to FP if not included"", ""XRay\t\t  77.000, 5.0"", ""XRay\t\t  96.7,\t  5.0"", ""#"")",2956
+Sb124,602.73
+Sb124,721
+Sb124,968.2
+Sb124,1006
+Sb124,1045.13
+Sb124,1198
+Sb124,1368.17
+Sb124,1690.98
+Sb124,2090.95
+Sc46,889.29
+Sc46,1120.55
+Se75,96.734
+Se75,132.62
+Se75,198.606
+Se75,269.09
+Se75,400.66
+Se75,572.2
+"c(""Sm153"", ""Xray\t\t  42.416, 63.95 multi"")",69.673
+"c(""Sm153"", ""Xray\t\t  42.416, 63.95 multi"")",102.838
+"c(""Sm153"", ""Xray\t\t  42.416, 63.95 multi"")",172.85
+"c(""Sm153"", ""Xray\t\t  42.416, 63.95 multi"")",531.4
+"c(""Sm153"", ""Xray\t\t  42.416, 63.95 multi"")",609.5
+Sr89,514.01
+Sr89,908.96
+Ta182,62
+Ta182,100.11
+Ta182,152.43
+Ta182,179.39
+Ta182,223
+Ta182,264.07
+Ta182,1121.3
+Ta182,1219
+"c(""Tc99m"", ""XRay\t\t  18.320, 6.12"")",140.511
+"c(""Tc99m"", ""XRay\t\t  18.320, 6.12"")",322.4
+"c(""Th232"", ""Xray\t\t  73.000, 10\tD(X123) # Bi "", ""XRay\t\t  93.000, 12.1\tD(X123) # Modified upward from-83 based on empirical spectra"")",129.1
+"c(""Th232"", ""Xray\t\t  73.000, 10\tD(X123) # Bi "", ""XRay\t\t  93.000, 12.1\tD(X123) # Modified upward from-83 based on empirical spectra"")",238.6
+"c(""Th232"", ""Xray\t\t  73.000, 10\tD(X123) # Bi "", ""XRay\t\t  93.000, 12.1\tD(X123) # Modified upward from-83 based on empirical spectra"")",338
+"c(""Th232"", ""Xray\t\t  73.000, 10\tD(X123) # Bi "", ""XRay\t\t  93.000, 12.1\tD(X123) # Modified upward from-83 based on empirical spectra"")",510.77
+"c(""Th232"", ""Xray\t\t  73.000, 10\tD(X123) # Bi "", ""XRay\t\t  93.000, 12.1\tD(X123) # Modified upward from-83 based on empirical spectra"")",583
+"c(""Th232"", ""Xray\t\t  73.000, 10\tD(X123) # Bi "", ""XRay\t\t  93.000, 12.1\tD(X123) # Modified upward from-83 based on empirical spectra"")",727
+"c(""Th232"", ""Xray\t\t  73.000, 10\tD(X123) # Bi "", ""XRay\t\t  93.000, 12.1\tD(X123) # Modified upward from-83 based on empirical spectra"")",860.564
+"c(""Th232"", ""Xray\t\t  73.000, 10\tD(X123) # Bi "", ""XRay\t\t  93.000, 12.1\tD(X123) # Modified upward from-83 based on empirical spectra"")",911.2
+"c(""Th232"", ""Xray\t\t  73.000, 10\tD(X123) # Bi "", ""XRay\t\t  93.000, 12.1\tD(X123) # Modified upward from-83 based on empirical spectra"")",936
+"c(""Th232"", ""Xray\t\t  73.000, 10\tD(X123) # Bi "", ""XRay\t\t  93.000, 12.1\tD(X123) # Modified upward from-83 based on empirical spectra"")",967.962
+"c(""Th232"", ""Xray\t\t  73.000, 10\tD(X123) # Bi "", ""XRay\t\t  93.000, 12.1\tD(X123) # Modified upward from-83 based on empirical spectra"")",1247.08
+"c(""Th232"", ""Xray\t\t  73.000, 10\tD(X123) # Bi "", ""XRay\t\t  93.000, 12.1\tD(X123) # Modified upward from-83 based on empirical spectra"")",1602
+"c(""Th232"", ""Xray\t\t  73.000, 10\tD(X123) # Bi "", ""XRay\t\t  93.000, 12.1\tD(X123) # Modified upward from-83 based on empirical spectra"")",2109
+"c(""Th232"", ""Xray\t\t  73.000, 10\tD(X123) # Bi "", ""XRay\t\t  93.000, 12.1\tD(X123) # Modified upward from-83 based on empirical spectra"")",2614.533
+Ti44,70
+Ti44,511
+Ti44,1157.03
+Ti44,1499.43
+Tl201,72.32
+Tl201,135.34
+Tl201,167.43
+Tl201,439.51
+U232,63.83
+U232,129.1
+U232,238.6
+U232,510.77
+U232,583
+U232,727
+U232,860.564
+U232,1593
+U232,2109
+U232,2614.533
+"c(""U233"", ""Xray\t\t75, \t19.67\t\tC(Pb212)\t\t# Bi\t\t"")",238.63
+"c(""U233"", ""Xray\t\t75, \t19.67\t\tC(Pb212)\t\t# Bi\t\t"")",510.77
+"c(""U233"", ""Xray\t\t75, \t19.67\t\tC(Pb212)\t\t# Bi\t\t"")",583.19
+"c(""U233"", ""Xray\t\t75, \t19.67\t\tC(Pb212)\t\t# Bi\t\t"")",727.33
+"c(""U233"", ""Xray\t\t75, \t19.67\t\tC(Pb212)\t\t# Bi\t\t"")",860.56
+"c(""U233"", ""Xray\t\t75, \t19.67\t\tC(Pb212)\t\t# Bi\t\t"")",1078.62
+"c(""U233"", ""Xray\t\t75, \t19.67\t\tC(Pb212)\t\t# Bi\t\t"")",1611
+"c(""U233"", ""Xray\t\t75, \t19.67\t\tC(Pb212)\t\t# Bi\t\t"")",2109
+"c(""U233"", ""Xray\t\t75, \t19.67\t\tC(Pb212)\t\t# Bi\t\t"")",2614.45
+"c(""U233"", ""Xray\t\t75, \t19.67\t\tC(Pb212)\t\t# Bi\t\t"")",42.44
+"c(""U233"", ""Xray\t\t75, \t19.67\t\tC(Pb212)\t\t# Bi\t\t"")",97.082
+"c(""U233"", ""Xray\t\t75, \t19.67\t\tC(Pb212)\t\t# Bi\t\t"")",143.74
+"c(""U233"", ""Xray\t\t75, \t19.67\t\tC(Pb212)\t\t# Bi\t\t"")",164.52
+"c(""U233"", ""Xray\t\t75, \t19.67\t\tC(Pb212)\t\t# Bi\t\t"")",218
+"c(""U233"", ""Xray\t\t75, \t19.67\t\tC(Pb212)\t\t# Bi\t\t"")",309.78
+"c(""U233"", ""Xray\t\t75, \t19.67\t\tC(Pb212)\t\t# Bi\t\t"")",440.46
+"c(""U233"", ""Xray\t\t75, \t19.67\t\tC(Pb212)\t\t# Bi\t\t"")",807.36
+"c(""U233"", ""Xray\t\t75, \t19.67\t\tC(Pb212)\t\t# Bi\t\t"")",1100.16
+"c(""U233"", ""Xray\t\t75, \t19.67\t\tC(Pb212)\t\t# Bi\t\t"")",1567.09
+"c(""U235"", ""Xray\t\t  97.000, 10.9 multi"")",143.76
+"c(""U235"", ""Xray\t\t  97.000, 10.9 multi"")",185.715
+"c(""U235"", ""Xray\t\t  97.000, 10.9 multi"")",345.9
+"c(""U238"", ""Xray\t\t  112,\t  3"", ""Xray \t\t  97,\t  3"")",63.29
+"c(""U238"", ""Xray\t\t  112,\t  3"", ""Xray \t\t  97,\t  3"")",92
+"c(""U238"", ""Xray\t\t  112,\t  3"", ""Xray \t\t  97,\t  3"")",258.26
+"c(""U238"", ""Xray\t\t  112,\t  3"", ""Xray \t\t  97,\t  3"")",766
+"c(""U238"", ""Xray\t\t  112,\t  3"", ""Xray \t\t  97,\t  3"")",1001
+"c(""U238"", ""Xray\t\t  112,\t  3"", ""Xray \t\t  97,\t  3"")",1193.77
+"c(""U238"", ""Xray\t\t  112,\t  3"", ""Xray \t\t  97,\t  3"")",1510.2
+"c(""U238"", ""Xray\t\t  112,\t  3"", ""Xray \t\t  97,\t  3"")",1737.73
+"c(""U238"", ""Xray\t\t  112,\t  3"", ""Xray \t\t  97,\t  3"")",1844.072
+"c(""Xe133m"", ""xray\t\t31.630,\t49.7"")",81
+"c(""Xe133m"", ""xray\t\t31.630,\t49.7"")",233
+"c(""Xe135"", ""XRay\t\t31.630,\t49.7 multi"")",249.77
+"c(""Xe135"", ""XRay\t\t31.630,\t49.7 multi"")",358.38
+"c(""Xe135"", ""XRay\t\t31.630,\t49.7 multi"")",387
+"c(""Xe135"", ""XRay\t\t31.630,\t49.7 multi"")",408.01
+"c(""Xe135"", ""XRay\t\t31.630,\t49.7 multi"")",608.15
+Y88,511
+Y88,898.042
+Y88,1325.063
+Y88,1836.063
+Y88,2223.063
+Y88,2734
+Zn65,511
+Zn65,1115.546

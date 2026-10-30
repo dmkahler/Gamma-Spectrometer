@@ -30,9 +30,11 @@ for (i in 1:length(fs)) {
      fn <- fs[i]
      nm <- get_nuclide(fn)
      nrg <- get_values(fn)
-     for (j in 1:nrow(nrg)) {
-          y <- data.frame(nm, nrg$Energy[j])
-          write_csv(y, "./library/energies.csv", append = TRUE)
+     if (nrow(nrg) > 1) {
+          for (j in 1:nrow(nrg)) {
+               y <- data.frame(nm, nrg$Energy[j])
+               write_csv(y, "./library/energies.csv", append = TRUE)
+          }
      }
 }
 
